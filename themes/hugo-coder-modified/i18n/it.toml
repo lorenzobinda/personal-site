@@ -1,0 +1,86 @@
+[category]
+other = "categoria"
+
+[tag]
+other = "tag"
+
+[series]
+other = "serie"
+
+[author]
+other = "autore"
+
+[posts]
+other = "ultimi post"
+
+[reading_time]
+one = "Lettura di un minuto"
+other = "{{ .Count }} minuti di lettura"
+
+[page_not_found]
+other = "Pagina non trovata"
+
+[page_does_not_exist]
+other = "Siamo spiacenti, questa pagina non esiste."
+
+[head_back]
+other = "Torna alla <a href=\"{{ . }}\">homepage</a>."
+
+[powered_by]
+other = "Generato da"
+
+[see_also]
+other = "Vedi anche in"
+
+[note]
+other = "note"
+
+[tip]
+other = "suggerimenti"
+
+[example]
+other = "esempio"
+
+[question]
+other = "domanda"
+
+[info]
+other = "informazioni"
+
+[warning]
+other = "attenzione"
+
+[error]
+other = "errore"
+
+# BOOKS CATEGORIES:
+[cat_technology]
+other = "TECNOLOGIA"
+
+# ADDED BY ME:
+[favourite_books]
+other = "Libri Preferiti:"
+
+[atomic_habits]
+other = "Piccole abitudini per grandi cambiamenti"
+
+[shoe_dog]
+other = "L'arte della vittoria"
+
+[ride_ofa_lifetime]
+other = "Lezioni di leadership creativa"
+
+[readingnow_books]
+other = "Sto leggendo:"
+
+[written_by]
+other = "di"
+
+[look_at]
+other = "Guarda"
+
+[on]
+other = "su"
+
+[articles_list]
+other = "Tutti gli articoli:"

@@ -1,0 +1,35 @@
+@mixin blog_list_dark {
+  .article-card {
+    background: $alt-bg-color-dark;
+    border: 2px solid $link-color-dark;
+
+    &__content {
+      color: $fg-color-dark;
+    }
+    &__header {
+      color: $fg-color-dark;
+    }
+    &__date {
+      background-color: $fg-color-opaque-dark;
+      color: $alt-bg-color-dark;
+    }
+    &__tag {
+      color: $alt-bg-color-dark;
+      background-color: $fg-color-opaque-dark;
+
+      a {
+        color: $alt-bg-color-dark;
+      }
+    }
+  }
+}
+
+body.colorscheme-dark {
+  @include blog_list_dark();
+}
+
+body.colorscheme-auto {
+  @media (prefers-color-scheme: dark) {
+    @include blog_list_dark();
+  }
+}

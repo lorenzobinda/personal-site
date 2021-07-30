@@ -1,0 +1,91 @@
+{{ define "title" }}
+  {{- if eq .Kind "term" -}}
+    {{- i18n .Data.Singular | title -}}
+    {{- print ": " -}}
+  {{- end -}}
+
+  {{- .Title }} · {{ .Site.Title -}}
+{{ end }}
+{{ define "content" }}
+  <section class="container page">
+    <article>
+      <header>
+        <h1 class="title">
+          <a class="title-link" href="{{ .Permalink | safeURL }}">
+            {{ .Title }}
+          </a>
+        </h1>
+      </header>
+
+      <!-- WHERE TO INSERT THE "READING-NOW" BOOK: -->
+      <h2 class="title-special">
+        {{ i18n "readingnow_books" }}
+        <span class="reading-now"><span class="book-name">Antifragile</span> {{ i18n "written_by"}} Taleb</span>
+      </h2>
+
+      <h2 class="title">
+          {{ i18n "favourite_books" }}
+      </h2>
+
+      <!-- IMAGES ABOUT FAVOURITE BOOKS -->
+      <div class='favourite-book-container'>
+        <div class="bookcover">
+          <img src='/images/books/atomichabits_cover.jpg' alt="favourite book #1 cover">
+          <div class="layer-bookcover">
+            <div class="text-bookcover">
+              <p id="name">{{ i18n "atomic_habits" }}</p>
+              <p id="writer">James Clear</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bookcover">
+          <img src='/images/books/shoedog_cover.jpg' alt="favourite book #2 cover">
+          <div class="layer-bookcover">
+            <div class="text-bookcover">
+              <p id="name">{{ i18n "shoe_dog" }}</p>
+              <p id="writer">Phil Knight</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bookcover">
+          <img src='/images/books/therideofalifetime_cover.jpg' alt="favourite book #3 cover">
+          <div class="layer-bookcover">
+            <div class="text-bookcover">
+              <p id="name">{{ i18n "ride_ofa_lifetime" }}</p>
+              <p id="writer">Robert Iger</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {{ .Content }}
+
+      <!-- LIST OF BOOKS -->
+      <h3>BUSINESS</h3>
+      <ul class="book_list">
+        {{ range $.Site.Data.books.business }}
+          {{ $index := printf "title_%s" $.Site.Language.Lang }}
+          {{ $value := index . $index }}
+          <li{{ if .must }} class="must" {{ end }}><a href="{{ .link }}"
+          title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon'
+          target="_blank" rel="nofollow noopener">{{ $value }}</a>, by {{ .author }}.</li>
+        {{ end }}
+      </ul>
+
+      <h3>{{ i18n "cat_technology" }}</h3>
+      <ul class="book_list">
+        {{ range $.Site.Data.books.business }}
+          {{ $index := printf "title_%s" $.Site.Language.Lang }}
+          {{ $value := index . $index }}
+          <li{{ if .must }} class="must" {{ end }}><a href="{{ .link }}"
+          title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon'
+          target="_blank" rel="nofollow noopener">{{ $value }}</a>, by {{ .author }}.</li>
+        {{ end }}
+      </ul>
+
+
+    </article>
+  </section>
+{{ end }}

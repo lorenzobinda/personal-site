@@ -1,0 +1,24 @@
+<li class="article-card">
+
+  <div class="article-card__datebox">
+    <a href="{{ .Params.externalLink | default .RelPermalink }}">
+      <img class="article-card__img" src="{{ .Params.coverImage }}" alt="
+    Article's cover image failed to load..."/>
+    </a>
+    <div class="article-card__date">{{ .Date.Format (.Site.Params.dateFormat) }}</div>
+  </div>
+
+  <div class="article-card__content">
+    <a href="{{ .Params.externalLink | default .RelPermalink }}">
+      <h1 class="article-card__header">{{ .Title }}</h1>
+    </a>
+    <p class="article-card__text">{{ truncate 60 .Description }}</p>
+  </div>
+
+  <div class="article-card__tagbox">
+    <div class="article-card__tagbox2">
+      <div class="article-card__tag">{{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}</div>
+    </div>
+  </div>
+
+</li>

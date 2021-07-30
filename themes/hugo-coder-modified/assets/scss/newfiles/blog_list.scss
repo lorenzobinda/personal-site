@@ -1,0 +1,141 @@
+.articles-grid {
+  display: flex;
+  width: inherit;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.article-card {
+  display: flex;
+  width: 34rem;
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  flex-wrap: wrap;
+  background: $alt-bg-color;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px rgba(0,0,0,.4);
+  border: 2px solid $link-color;
+
+  &__img {
+    object-fit: cover;
+    width: 34rem;
+    height: 32rem;
+    white-space: pre;
+  }
+
+  &__content {
+    position: relative;
+    padding: 2rem;
+    height: 16rem;
+    width: 37rem;
+    color: $fg-color;
+    display: table;
+    margin-left: -5px;
+    margin-right: -10px;
+  }
+
+  &__header {
+    color: $fg-color;
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 15px;
+    align-items: flex-start;
+  }
+
+  &__text {
+    margin-top: 2px;
+    line-height: 1.4;
+    margin-bottom: 0px;
+  }
+
+  &__datebox {
+    position: relative;
+    height: 30rem;
+  }
+
+  &__date {
+    position: absolute;
+    top: -3px;
+    left: -1px;
+    padding-left: 6px;
+    padding-right: 8px;
+    background-color: $fg-color-opaque;
+    border-radius: 0px 0px 10px 0px;
+    color: $alt-bg-color;
+    font-weight: 600;
+  }
+
+  &__tagbox {
+    position: relative;
+    width: inherit;
+  }
+
+  &__tagbox2 {
+    position: absolute;
+    bottom: 0px;
+    right: -3px;
+    width: inherit;
+  }
+
+  &__tag {
+    color: $alt-bg-color;
+    text-align: right;
+    background-color: $fg-color-opaque;
+    display: inline-block;
+    padding-left: 9px;
+    padding-right: 10px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 10px 0px 0px 0px;
+
+    a {
+      color: $alt-bg-color;
+    }
+  }
+}
+
+.article-card:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+/* SHIFT CARDS LIKE STAIRS */
+/* Mobile Styles = 1 card*/
+@media only screen and (max-width: 760px) {
+  .article-card {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}
+/* Tablet Styles = 2 cards*/
+@media only screen and (min-width: 760px) and (max-width: 1152px) {
+  .article-card:nth-of-type(odd) {
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+  .article-card:nth-of-type(even) {
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+}
+/* Desktop Styles = 3 cards*/
+@media only screen and (min-width: 1152px) {
+  .article-card:nth-of-type(3n-2) {
+    margin-top: 5px;
+    margin-bottom: 105px;
+  }
+
+  .article-card:nth-of-type(3n-1) {
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+
+  .article-card:nth-of-type(3n+0) {
+    margin-top: 105px;
+    margin-bottom: 5px;
+  }
+}

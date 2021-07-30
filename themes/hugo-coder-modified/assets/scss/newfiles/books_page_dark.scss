@@ -1,0 +1,33 @@
+@mixin books_page_dark {
+  .bookcover{
+    border: 2px solid $link-color-dark;
+  }
+  .layer-bookcover{
+    background: $fg-color-dark;
+  }
+  #name{
+    color: $bg-color-dark;
+  }
+  #writer{
+    color: $bg-color-dark;
+  }
+  .title-special{
+    color: $link-color-dark;
+  }
+  .reading-now{
+    color: $fg-color-dark;
+  }
+  .book_list a{
+    color: $fg-color-dark;
+  }
+}
+
+body.colorscheme-dark {
+  @include books_page_dark();
+}
+
+body.colorscheme-auto {
+  @media (prefers-color-scheme: dark) {
+    @include books_page_dark();
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "1": {
+    "title_en": "Shoe Dog",
+    "title_it": "L'arte della vittoria",
+    "author": "Phil Knight",
+    "link": "https://example.com/",
+    "must": "1"
+  },
+  "2": {
+    "title_en": "3 AM",
+    "title_it": "Le tre del mattino",
+    "author": "Gianrico Carofiglio",
+    "link": "https://example.com/"
+  },
+  "3": {
+    "title_en": "cow",
+    "title_it": "mucca",
+    "author": "cinese",
+    "link": "https://example.com/"
+  }
+}
