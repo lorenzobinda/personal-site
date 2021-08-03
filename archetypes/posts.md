@@ -8,6 +8,6 @@ authors: []
 tags: []
 categories: []
 externalLink: ""
-series: []
+series: [post]
 coverImage:
 ---

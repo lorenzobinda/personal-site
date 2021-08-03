@@ -8,7 +8,8 @@ authors: []
 tags: [Learn]
 categories: [Coding]
 externalLink: ""
-series: []
+series: [post]
+coverImage:
 ---
 
 I always wanted to create a free space where to express myself and discuss ideas. I want to set up something that is 100% mine, something not owned by a big tech company.

@@ -8,7 +8,8 @@ authors: []
 tags: [Imparare]
 categories: [Programmare]
 externalLink: ""
-series: []
+series: [post]
+coverImage:
 ---
 
 Da sempre desideravo costruirmi un mio piccolo spazio dove esprimermi...

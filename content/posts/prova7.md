@@ -8,6 +8,6 @@ authors: []
 tags: [Productivity]
 categories: []
 externalLink: ""
-series: []
+series: [post]
 coverImage:
 ---

@@ -39,18 +39,15 @@
 
           {{ .Content }}
         </div>
-
-        <div class="read-more">
-          Read more on the same topic:
-          <h2>{{ i18n "articles_list" }} {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}</h2>
-        </div>
         
       </div>
 
 
 
       <footer>
+        <!-- section modified to use it as a permanent "Read Next" section. It only worked when a series was created, now I will update the archetype to mark every post with the same series tag. --> 
         {{ partial "posts/series.html" . }}
+
         {{ partial "posts/disqus.html" . }}
         {{ partial "posts/commento.html" . }}
         {{ partial "posts/utterances.html" . }}

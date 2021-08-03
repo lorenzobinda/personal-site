@@ -8,7 +8,7 @@ authors: [Lorenzo Binda]
 tags: [Productivity]
 categories: []
 externalLink: ""
-series: []
+series: [post]
 coverImage: /images/N90.jpg
 ---
 ciao

@@ -296,11 +296,7 @@ body.colorscheme-dark .article-card {
   max-width: 74rem;
   margin: 6rem auto; }
 
-.read-more {
-  max-width: 74rem;
-  margin: auto;
-  display: flex; }
-  .read-more h2 {
-    align-items: flex-start; }
+#id-articles-list {
+  margin-top: 9rem; }
 
 /*# sourceMappingURL=coder-dark.css.map */

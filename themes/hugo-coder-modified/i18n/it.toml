@@ -29,9 +29,6 @@ other = "Torna alla <a href=\"{{ . }}\">homepage</a>."
 [powered_by]
 other = "Generato da"
 
-[see_also]
-other = "Vedi anche in"
-
 [note]
 other = "note"
 
@@ -84,3 +81,6 @@ other = "su"
 
 [articles_list]
 other = "Tutti gli articoli:"
+
+[read_next]
+other = "CONTINUA A LEGGERE:"

@@ -15,7 +15,7 @@
       {{- end -}}
     </ul>
 
-    <h1>{{ i18n "articles_list" }}</h1>
+    <h1 id="id-articles-list">{{ i18n "articles_list" }}</h1>
     <ul>
       {{- range .Paginator.Pages -}}
         {{- .Render "lishort" -}}

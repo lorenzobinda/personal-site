@@ -3118,11 +3118,11 @@ img.emoji {
           font-size: 4rem;
           line-height: 4.4rem; } }
   .content article footer {
-    margin-top: 4rem; }
+    margin-top: 10rem; }
     .content article footer .see-also {
       margin: 3.2rem 0; }
-      .content article footer .see-also h3 {
-        margin: 3.2rem 0; }
+      .content article footer .see-also h2 {
+        margin: 0 0 -2rem 0; }
   .content article p {
     text-align: justify;
     text-justify: auto;
@@ -3657,11 +3657,7 @@ img.emoji {
   max-width: 74rem;
   margin: 6rem auto; }
 
-.read-more {
-  max-width: 74rem;
-  margin: auto;
-  display: flex; }
-  .read-more h2 {
-    align-items: flex-start; }
+#id-articles-list {
+  margin-top: 9rem; }
 
 /*# sourceMappingURL=coder.css.map */

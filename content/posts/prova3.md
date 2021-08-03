@@ -8,7 +8,7 @@ authors: [Lorenzo Binda]
 tags: [University]
 categories: [Fallito]
 externalLink: ""
-series: [ciao]
+series: [post]
 coverImage: /images/N90.jpg
 ---
 

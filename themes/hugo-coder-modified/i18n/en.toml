@@ -38,9 +38,6 @@ other = "You can head back to <a href=\"{{ . }}\">homepage</a>."
 [powered_by]
 other = "Powered by"
 
-[see_also]
-other = "See also in"
-
 [note]
 other = "note"
 
@@ -93,3 +90,6 @@ other = "on"
 
 [articles_list]
 other = "All the articles:"
+
+[read_next]
+other = "READ NEXT:"

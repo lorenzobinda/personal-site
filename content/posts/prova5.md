@@ -8,6 +8,6 @@ authors: []
 tags: []
 categories: []
 externalLink: ""
-series: []
+series: [post]
 coverImage: /images/N90.jpg
 ---
