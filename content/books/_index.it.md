@@ -1,7 +1,6 @@
 ---
 title: "Libri"
-date: 2021-05-01T16:34:24+02:00
-draft: true
+slug: "books"
 ---
 ## Categorie:
 Ecco una lista dei libri più interessanti che ho letto negli ultimi anni.
