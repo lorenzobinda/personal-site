@@ -23,3 +23,52 @@
 #id-articles-list {
   margin-top: 9rem;
 }
+
+
+/* ELEMENTS REGARDING CONTACT PAGE */
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.social-box {
+  list-style-type: none;
+  min-width: 18rem;
+  margin: 10px 5px;
+
+  h5 {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.social-icon {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: $alt-bg-color;
+  position: relative;
+  margin: 2rem auto 1rem auto;
+
+  i {
+    position: absolute;
+    font-size: 4rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $fg-color;
+  }
+
+  &:hover {
+    background-color: $fg-color;
+    i {
+      color: $link-color;
+    }
+  }
+}

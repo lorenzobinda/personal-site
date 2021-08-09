@@ -104,33 +104,31 @@ author = "authors"
 
 [[params.social]]
 name = "LinkedIn"
+user = "Lorenzo Binda"
 icon = "fa fa-linkedin"
 weight = 1
-url = "https://example.com/"
+url = "https://www.linkedin.com/in/lorenzo-binda6/"
 
 [[params.social]]
 name = "Twitter"
+user = "@lorenzo__binda"
 icon = "fa fa-twitter"
 weight = 2
-url = "https://example.com/"
-
-[[params.social]]
-name = "Instagram"
-icon = "fa fa-instagram"
-weight = 3
-url = "https://example.com/"
+url = "https://twitter.com/lorenzo__binda"
 
 [[params.social]]
 name = "Pocket"
+user = "lorenzo.binda"
 icon = "fa fa-get-pocket"
-weight = 4
-url = "https://example.com/"
+weight = 3
+url = "https://getpocket.com/@6c0g5d42pZ5cFA90Z3T1367T1eAap72d66dZc2O3cFC298q4b4560B1dIvNNwdkh"
 
 [[params.social]]
 name = "GitHub"
+user = "lorenzobinda"
 icon = "fa fa-github"
-weight = 5
-url = "https://example.com/"
+weight = 4
+url = "https://github.com/lorenzobinda"
 
 [languages.en]
 languageName = ":uk:"

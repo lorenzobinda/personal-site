@@ -18,7 +18,30 @@
       </header>
 
       {{ .Content }}
+
       <p>CIAO CIAO CIAO</p>
+      
+      <!-- WIP:::: -->
+      {{ with .Site.Params.social }}
+      <ul class="social-container">
+        {{ range sort . "weight" }}
+          <li class="social-box">
+            <div class="social-content">
+              <div class="social-icon">
+                <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
+                  <i class="{{ .icon }}" aria-hidden="true"></i>
+                </a>
+              </div>
+              <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
+                <h5>{{ .user }}</h5>
+              </a>
+            </div>
+          </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+      <!-- end of WIP -->
+
 
     </article>
   </section>

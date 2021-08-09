@@ -299,4 +299,40 @@ body.colorscheme-dark .article-card {
 #id-articles-list {
   margin-top: 9rem; }
 
+/* ELEMENTS REGARDING CONTACT PAGE */
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0px; }
+
+.social-box {
+  list-style-type: none;
+  min-width: 18rem;
+  margin: 10px 5px; }
+  .social-box h5 {
+    text-align: center;
+    margin-top: 0; }
+  .social-box a:hover {
+    text-decoration: none; }
+
+.social-icon {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: #d8dee9;
+  position: relative;
+  margin: 2rem auto 1rem auto; }
+  .social-icon i {
+    position: absolute;
+    font-size: 4rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2e3440; }
+  .social-icon:hover {
+    background-color: #2e3440; }
+    .social-icon:hover i {
+      color: #88c0d0; }
+
 /*# sourceMappingURL=coder-dark.css.map */
