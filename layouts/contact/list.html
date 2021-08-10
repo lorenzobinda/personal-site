@@ -17,16 +17,16 @@
         </h1>
       </header>
 
+      <!-- Presentation in MD -->
       {{ .Content }}
-
-      <p>CIAO CIAO CIAO</p>
+      <!-- End -->
       
-      <!-- WIP:::: -->
+      <!-- Social list of buttons -->
       {{ with .Site.Params.social }}
       <ul class="social-container">
         {{ range sort . "weight" }}
           <li class="social-box">
-            <div class="social-content">
+            <div>
               <div class="social-icon">
                 <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
                   <i class="{{ .icon }}" aria-hidden="true"></i>
@@ -35,13 +35,13 @@
               <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
                 <h5>{{ .user }}</h5>
               </a>
+              <h6>{{ .description }}</h6>
             </div>
           </li>
         {{ end }}
       </ul>
       {{ end }}
-      <!-- end of WIP -->
-
+      <!-- End -->
 
     </article>
   </section>

@@ -104,6 +104,7 @@ author = "authors"
 
 [[params.social]]
 name = "LinkedIn"
+description = "let's connect!"
 user = "Lorenzo Binda"
 icon = "fa fa-linkedin"
 weight = 1
@@ -111,6 +112,7 @@ url = "https://www.linkedin.com/in/lorenzo-binda6/"
 
 [[params.social]]
 name = "Twitter"
+description = "my random thoughts"
 user = "@lorenzo__binda"
 icon = "fa fa-twitter"
 weight = 2
@@ -118,6 +120,7 @@ url = "https://twitter.com/lorenzo__binda"
 
 [[params.social]]
 name = "Pocket"
+description = "I recommend articles"
 user = "lorenzo.binda"
 icon = "fa fa-get-pocket"
 weight = 3
@@ -125,6 +128,7 @@ url = "https://getpocket.com/@6c0g5d42pZ5cFA90Z3T1367T1eAap72d66dZc2O3cFC298q4b4
 
 [[params.social]]
 name = "GitHub"
+description = "where I post my code"
 user = "lorenzobinda"
 icon = "fa fa-github"
 weight = 4
