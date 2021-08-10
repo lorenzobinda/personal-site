@@ -1,5 +1,9 @@
-# personal-site
-My personal website, created with the Hugo framework
+# My personal website
+It will contain articles and guides created by me. Will be focused on technology and productivity tools. It's full of personal opinions, but the hope is that it will be useful also for others. 
+
+Created with the Hugo static website generator, starting from the hugo-coder theme. 
+
+All made by me in my spare time. The journey has been an extremely valuable way to really go deep and put my coding competences into practice.
 
 ---
 Acknowledgements:
