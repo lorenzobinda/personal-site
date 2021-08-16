@@ -1,21 +1,20 @@
 {
   "1": {
-    "title_en": "Shoe Dog",
-    "title_it": "L'arte della vittoria",
-    "author": "Phil Knight",
-    "link": "https://example.com/",
-    "must": "1"
+    "title_en": "The Warren Buffet Way",
+    "title_it": "Il metodo Warren Buffett",
+    "author": "Robert G. Hagstrom",
+    "link": "https://www.amazon.com/Warren-Buffett-Way-Robert-Hagstrom/dp/1118503252"
   },
   "2": {
-    "title_en": "3 AM",
-    "title_it": "Le tre del mattino",
-    "author": "Gianrico Carofiglio",
-    "link": "https://example.com/"
+    "title_en": "",
+    "title_it": "",
+    "author": "",
+    "link": ""
   },
   "3": {
-    "title_en": "cow",
-    "title_it": "mucca",
-    "author": "cinese",
-    "link": "https://example.com/"
+    "title_en": "",
+    "title_it": "",
+    "author": "",
+    "link": ""
   }
 }

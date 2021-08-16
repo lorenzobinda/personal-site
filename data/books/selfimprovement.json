@@ -1,0 +1,21 @@
+{
+  "1": {
+    "title_en": "title",
+    "title_it": "title",
+    "author": "author",
+    "link": "https://example.com/",
+    "must": "1"
+  },
+  "2": {
+    "title_en": "",
+    "title_it": "",
+    "author": "",
+    "link": ""
+  },
+  "3": {
+    "title_en": "",
+    "title_it": "",
+    "author": "",
+    "link": ""
+  }
+}
