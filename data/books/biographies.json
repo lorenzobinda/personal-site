@@ -7,15 +7,22 @@
     "must": "1"
   },
   "2": {
-    "title_en": "",
-    "title_it": "",
-    "author": "",
-    "link": ""
+    "title_en": "The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company ",
+    "title_it": "Lezioni di leadership creativa: I segreti che ho imparato come CEO di Walt Disney",
+    "author": "Robert Iger",
+    "link": "https://www.amazon.com/Ride-Lifetime-Lessons-Learned-Company/dp/0399592091/"
   },
   "3": {
-    "title_en": "",
-    "title_it": "",
-    "author": "",
-    "link": ""
+    "title_en": "Shoe Dog: A Memoir by the Creator of Nike",
+    "title_it": "L'arte della vittoria. Autobiografia del fondatore della Nike",
+    "author": "Phil Knight",
+    "link": "https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike/dp/1501135929/",
+    "must": "1"
+  },
+  "4": {
+    "title_en": "Greenlights",
+    "title_it": "Greenlights: L'arte di correre in discesa",
+    "author": "Matthew McConaughey",
+    "link": "https://www.amazon.com/Greenlights-Matthew-McConaughey/dp/0593139135/"
   }
 }

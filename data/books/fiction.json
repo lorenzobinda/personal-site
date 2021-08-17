@@ -1,21 +1,15 @@
 {
   "1": {
-    "title_en": "title",
-    "title_it": "title",
-    "author": "author",
-    "link": "https://example.com/",
+    "title_en": "The Hitchhiker's Guide to the Galaxy",
+    "title_it": "Guida galattica per gli autostoppisti",
+    "author": "Douglas Adams",
+    "link": "https://www.amazon.com/Hitchhikers-Guide-Galaxy-Douglas-Adams/dp/0345418913/",
     "must": "1"
   },
   "2": {
-    "title_en": "",
-    "title_it": "",
-    "author": "",
-    "link": ""
-  },
-  "3": {
-    "title_en": "",
-    "title_it": "",
-    "author": "",
-    "link": ""
+    "title_en": "2001: A Space Odyssey",
+    "title_it": "2001: Odissea nello spazio",
+    "author": "Arthur C. Clarke",
+    "link": "https://www.amazon.com/2001-Space-Odyssey-ebook/dp/B01A6E8EQ6/"
   }
 }
