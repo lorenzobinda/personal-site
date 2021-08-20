@@ -17,44 +17,50 @@
         </h1>
       </header>
 
-      <!-- WHERE TO INSERT THE "READING-NOW" BOOK: -->
-      <h2 class="title-special">
-        {{ i18n "readingnow_books" }}
-        <span class="reading-now"><span class="book-name">Antifragile</span> {{ i18n "written_by"}} Taleb</span>
-      </h2>
+      <!-- "Reading Now" books -->
+      <div class="book-block title-special">
+        <h2>{{ i18n "readingnow_books" }}</h2>
+        <ul>
+          {{ range $.Site.Data.books.reading_now }}
+            {{ $index := printf "title_%s" $.Site.Language.Lang }}
+            {{ $value := index . $index }}
+            <li><a href="{{ .link }}" title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon' target="_blank" rel="nofollow noopener">{{ truncate 40 $value }}</a>, by {{ .author }}</li>
+          {{ end }}
+        </ul>
+      </div>
 
       <h2 class="title">
-          {{ i18n "favourite_books" }}
+          {{ i18n "favorite_books" }}
       </h2>
 
-      <!-- IMAGES ABOUT FAVOURITE BOOKS -->
-      <div class='favourite-book-container'>
+      <!-- Images about Favorite books -->
+      <div class='favorite-book-container'>
         <div class="bookcover">
-          <img src='/images/books/atomichabits_cover.jpg' alt="favourite book #1 cover">
+          <img src='/images/books/fav_book_1_cover.jpg' alt="favorite book #1 cover">
           <div class="layer-bookcover">
             <div class="text-bookcover">
-              <p id="name">{{ i18n "atomic_habits" }}</p>
+              <p id="name">{{ i18n "fav_book_1" }}</p>
               <p id="writer">James Clear</p>
             </div>
           </div>
         </div>
 
         <div class="bookcover">
-          <img src='/images/books/shoedog_cover.jpg' alt="favourite book #2 cover">
+          <img src='/images/books/fav_book_2_cover.jpg' alt="favorite book #2 cover">
           <div class="layer-bookcover">
             <div class="text-bookcover">
-              <p id="name">{{ i18n "shoe_dog" }}</p>
+              <p id="name">{{ i18n "fav_book_2" }}</p>
               <p id="writer">Phil Knight</p>
             </div>
           </div>
         </div>
 
         <div class="bookcover">
-          <img src='/images/books/therideofalifetime_cover.jpg' alt="favourite book #3 cover">
+          <img src='/images/books/fav_book_3_cover.jpg' alt="favorite book #3 cover">
           <div class="layer-bookcover">
             <div class="text-bookcover">
-              <p id="name">{{ i18n "ride_ofa_lifetime" }}</p>
-              <p id="writer">Robert Iger</p>
+              <p id="name">{{ i18n "fav_book_3" }}</p>
+              <p id="writer">Arthur C. Clarke</p>
             </div>
           </div>
         </div>
@@ -62,29 +68,78 @@
 
       {{ .Content }}
 
-      <!-- LIST OF BOOKS -->
-      <h3>BUSINESS</h3>
-      <ul class="book_list">
-        {{ range $.Site.Data.books.business }}
-          {{ $index := printf "title_%s" $.Site.Language.Lang }}
-          {{ $value := index . $index }}
-          <li{{ if .must }} class="must" {{ end }}><a href="{{ .link }}"
-          title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon'
-          target="_blank" rel="nofollow noopener">{{ $value }}</a>, by {{ .author }}.</li>
-        {{ end }}
-      </ul>
+      <!-- Books division -->
+      <div class="book-block">
+        <!-- Cat 1 - Self Improvement -->
+        <h3>{{ i18n "cat_self_improvement" }}</h3>
+        <ul class="book-list">
+          {{ range $.Site.Data.books.self_improvement }}
+            {{ $index := printf "title_%s" $.Site.Language.Lang }}
+            {{ $value := index . $index }}
+            <li{{ if .must }} class="must" {{ end }}><a href="{{ .link }}" title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon' target="_blank" rel="nofollow noopener">{{ truncate 40 $value }}</a>, by {{ .author }}</li>
+          {{ end }}
+        </ul>
 
-      <h3>{{ i18n "cat_technology" }}</h3>
-      <ul class="book_list">
-        {{ range $.Site.Data.books.business }}
-          {{ $index := printf "title_%s" $.Site.Language.Lang }}
-          {{ $value := index . $index }}
-          <li{{ if .must }} class="must" {{ end }}><a href="{{ .link }}"
-          title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon'
-          target="_blank" rel="nofollow noopener">{{ $value }}</a>, by {{ .author }}.</li>
-        {{ end }}
-      </ul>
+        <!-- Cat 2 - Technology -->
+        <h3>{{ i18n "cat_tech" }}</h3>
+        <ul class="book-list">
+          {{ range $.Site.Data.books.tech }}
+            {{ $index := printf "title_%s" $.Site.Language.Lang }}
+            {{ $value := index . $index }}
+            <li{{ if .must }} class="must" {{ end }}><a href="{{ .link }}" title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon' target="_blank" rel="nofollow noopener">{{ truncate 40 $value }}</a>, by {{ .author }}</li>
+          {{ end }}
+        </ul>
 
+        <!-- Cat 3 - Business -->
+        <h3>BUSINESS</h3>
+        <ul class="book-list">
+          {{ range $.Site.Data.books.business }}
+            {{ $index := printf "title_%s" $.Site.Language.Lang }}
+            {{ $value := index . $index }}
+            <li{{ if .must }} class="must" {{ end }}><a href="{{ .link }}" title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon' target="_blank" rel="nofollow noopener">{{ truncate 40 $value }}</a>, by {{ .author }}</li>
+          {{ end }}
+        </ul>
+
+        <!-- Cat 4 - Biographies -->
+        <h3>{{ i18n "cat_biographies" }}</h3>
+        <ul class="book-list">
+          {{ range $.Site.Data.books.biographies }}
+            {{ $index := printf "title_%s" $.Site.Language.Lang }}
+            {{ $value := index . $index }}
+            <li{{ if .must }} class="must" {{ end }}><a href="{{ .link }}" title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon' target="_blank" rel="nofollow noopener">{{ truncate 40 $value }}</a>, by {{ .author }}</li>
+          {{ end }}
+        </ul>
+        
+        <!-- Cat 5 - Fiction -->
+        <h3>{{ i18n "cat_fiction" }}</h3>
+        <ul class="book-list">
+          {{ range $.Site.Data.books.fiction }}
+            {{ $index := printf "title_%s" $.Site.Language.Lang }}
+            {{ $value := index . $index }}
+            <li{{ if .must }} class="must" {{ end }}><a href="{{ .link }}" title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon' target="_blank" rel="nofollow noopener">{{ truncate 40 $value }}</a>, by {{ .author }}</li>
+          {{ end }}
+        </ul>
+
+        <!-- Cat 6 - Philosophy -->
+        <h3>{{ i18n "cat_philosophy" }}</h3>
+        <ul class="book-list">
+          {{ range $.Site.Data.books.philosophy }}
+            {{ $index := printf "title_%s" $.Site.Language.Lang }}
+            {{ $value := index . $index }}
+            <li{{ if .must }} class="must" {{ end }}><a href="{{ .link }}" title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon' target="_blank" rel="nofollow noopener">{{ truncate 40 $value }}</a>, by {{ .author }}</li>
+          {{ end }}
+        </ul>
+
+        <!-- Cat 7 - Other -->
+        <h3>{{ i18n "cat_other" }}</h3>
+        <ul class="book-list">
+          {{ range $.Site.Data.books.other }}
+            {{ $index := printf "title_%s" $.Site.Language.Lang }}
+            {{ $value := index . $index }}
+            <li{{ if .must }} class="must" {{ end }}><a href="{{ .link }}" title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon' target="_blank" rel="nofollow noopener">{{ truncate 40 $value }}</a>, by {{ .author }}</li>
+          {{ end }}
+        </ul>
+      </div>
 
     </article>
   </section>

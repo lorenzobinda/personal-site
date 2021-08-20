@@ -59,23 +59,33 @@ other = "warning"
 [error]
 other = "error"
 
-# BOOKS CATEGORIES:
-[cat_technology]
-other = "TECHNOLOGY"
+# Books categories:
+[cat_self_improvement]
+  other = "SELF-IMPROVEMENT"
+[cat_tech]
+  other = "TECHNOLOGY"
+[cat_biographies]
+  other = "BIOGRAPHIES"
+[cat_fiction]
+  other = "FICTION"
+[cat_philosophy]
+  other = "PHILOSOPHY"
+[cat_other]
+  other = "OTHER"
+#end
 
-# ADDED BY ME:
-[favourite_books]
-other = "Favourite Books:"
+# Favorite books:
+[favorite_books]
+  other = "Favorite Books:"
+[fav_book_1]
+  other = "Atomic Habits"
+[fav_book_2]
+  other = "Shoe Dog"
+[fav_book_3]
+  other = "The Hitchhiker's Guide to the Galaxy"
+#end
 
-[atomic_habits]
-other = "Atomic Habits"
-
-[shoe_dog]
-other = "Shoe Dog"
-
-[ride_ofa_lifetime]
-other = "The ride of a lifetime"
-
+# Added by me:
 [readingnow_books]
 other = "Reading now:"
 

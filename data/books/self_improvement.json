@@ -1,0 +1,46 @@
+{
+  "1": {
+    "title_en": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+    "title_it": "Piccole abitudini per grandi cambiamenti: Trasforma la tua vita un piccolo passo per volta",
+    "author": "James Clear",
+    "link": "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299/",
+    "must": "1"
+  },
+  "2": {
+    "title_en": "Make Time: How to Focus on What Matters Every Day",
+    "title_it": "Make Time: How to Focus on What Matters Every Day",
+    "author": "Jake Knapp, John Zeratsky",
+    "link": "https://www.amazon.com/Make-Time-Focus-Matters-Every/dp/0525572422/"
+  },
+  "3": {
+    "title_en": "The Dip: A Little Book That Teaches You When to Quit (and When to Stick)",
+    "title_it": "Il vicolo cieco: Il piccolo libro che vi insegna a comprendere se insistere o rinunciare",
+    "author": "Seth Godin",
+    "link": "https://www.amazon.com/Dip-Little-Book-Teaches-Stick/dp/1591841666/"
+  },
+  "4": {
+    "title_en": "Show Your Work!: 10 Ways to Share Your Creativity and Get Discovered",
+    "title_it": "Semina come un artista. 10 idee per condividere la tua creatività e far conoscere il tuo lavoro",
+    "author": "Austin Kleon",
+    "link": "https://www.amazon.com/Show-Your-Work-Austin-Kleon/dp/076117897X/"
+  },
+  "5": {
+    "title_en": "The Almanack of Naval Ravikant: A Guide to Wealth and Happiness",
+    "title_it": "The Almanack of Naval Ravikant: A Guide to Wealth and Happiness",
+    "author": "Eric Jorgenson",
+    "link": "https://www.navalmanack.com/"
+  },
+  "6": {
+    "title_en": "Deep Work: Rules for Focused Success in a Distracted World",
+    "title_it": "Deep work. Concentrati al massimo. Quattro regole per ritrovare il focus sulle attività davvero importanti",
+    "author": "Cal Newport",
+    "link": "https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692/",
+    "must": "1"
+  },
+  "7": {
+    "title_en": "Can't Hurt Me: Master Your Mind and Defy the Odds",
+    "title_it": "Can't Hurt Me: Master Your Mind and Defy the Odds",
+    "author": "David Goggins",
+    "link": "https://www.amazon.com/Cant-Hurt-Me-Master-Your/dp/1544512279/"
+  }
+}

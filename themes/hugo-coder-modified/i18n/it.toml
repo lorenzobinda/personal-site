@@ -50,23 +50,33 @@ other = "attenzione"
 [error]
 other = "errore"
 
-# BOOKS CATEGORIES:
-[cat_technology]
-other = "TECNOLOGIA"
+# Books categories:
+[cat_self_improvement]
+  other = "AUTOMIGLIORAMENTO"
+[cat_tech]
+  other = "TECNOLOGIA"
+[cat_biographies]
+  other = "BIOGRAFIE"
+[cat_fiction]
+  other = "NARRATIVA"
+[cat_philosophy]
+  other = "FILOSOFIA"
+[cat_other]
+  other = "ALTRO"
+#end
 
-# ADDED BY ME:
-[favourite_books]
-other = "Libri Preferiti:"
+# Favorite books:
+[favorite_books]
+  other = "Libri Preferiti:"
+[fav_book_1]
+  other = "Piccole abitudini per grandi cambiamenti"
+[fav_book_2]
+  other = "L'arte della vittoria"
+[fav_book_3]
+  other = "Guida galattica per gli autostoppisti"
+#end
 
-[atomic_habits]
-other = "Piccole abitudini per grandi cambiamenti"
-
-[shoe_dog]
-other = "L'arte della vittoria"
-
-[ride_ofa_lifetime]
-other = "Lezioni di leadership creativa"
-
+# Added by me:
 [readingnow_books]
 other = "Sto leggendo:"
 

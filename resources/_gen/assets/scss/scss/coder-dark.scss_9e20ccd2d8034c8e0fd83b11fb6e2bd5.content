@@ -211,6 +211,12 @@ body.colorscheme-dark .float-container a {
       body.colorscheme-auto .float-container a:hover, body.colorscheme-auto .float-container a:focus {
         color: #d8dee9; } }
 /*ADDED BY ME, sistemare le versioni dark*/
+body.colorscheme-dark .title-special h2 {
+  color: #ebcb8b; }
+
+body.colorscheme-dark .book-list a {
+  color: #d8dee9; }
+
 body.colorscheme-dark .bookcover {
   border: 2px solid #ebcb8b; }
 
@@ -223,16 +229,11 @@ body.colorscheme-dark #name {
 body.colorscheme-dark #writer {
   color: #3b4252; }
 
-body.colorscheme-dark .title-special {
-  color: #ebcb8b; }
-
-body.colorscheme-dark .reading-now {
-  color: #d8dee9; }
-
-body.colorscheme-dark .book_list a {
-  color: #d8dee9; }
-
 @media (prefers-color-scheme: dark) {
+  body.colorscheme-auto .title-special h2 {
+    color: #ebcb8b; }
+  body.colorscheme-auto .book-list a {
+    color: #d8dee9; }
   body.colorscheme-auto .bookcover {
     border: 2px solid #ebcb8b; }
   body.colorscheme-auto .layer-bookcover {
@@ -240,13 +241,7 @@ body.colorscheme-dark .book_list a {
   body.colorscheme-auto #name {
     color: #3b4252; }
   body.colorscheme-auto #writer {
-    color: #3b4252; }
-  body.colorscheme-auto .title-special {
-    color: #ebcb8b; }
-  body.colorscheme-auto .reading-now {
-    color: #d8dee9; }
-  body.colorscheme-auto .book_list a {
-    color: #d8dee9; } }
+    color: #3b4252; } }
 
 body.colorscheme-dark .article-card {
   background: #2e3440;

@@ -1,4 +1,12 @@
 @mixin books_page_dark {
+  .title-special h2{
+    color: $link-color-dark;
+  }
+
+  .book-list a{
+    color: $fg-color-dark;
+  }
+
   .bookcover{
     border: 2px solid $link-color-dark;
   }
@@ -10,15 +18,6 @@
   }
   #writer{
     color: $bg-color-dark;
-  }
-  .title-special{
-    color: $link-color-dark;
-  }
-  .reading-now{
-    color: $fg-color-dark;
-  }
-  .book_list a{
-    color: $fg-color-dark;
   }
 }
 
