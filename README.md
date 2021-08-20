@@ -5,6 +5,16 @@ Created with the Hugo static website generator, starting from the hugo-coder the
 
 All made by me in my spare time. The journey has been an extremely valuable way to really go deep and put my coding competences into practice.
 
+
+## Screenshots
+
+#### Homepage
+![homepage](/images/Github_screenshots/homepage.png)
+#### Blog list
+![blog](/images/Github_screenshots/blog.png)
+#### Books section
+![books](/images/Github_screenshots/books.png)
+
 ---
 Acknowledgements:
 - I got the inspiration from [Riccardo Palombo](https://riccardo.im/)
