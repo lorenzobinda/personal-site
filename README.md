@@ -9,11 +9,11 @@ All made by me in my spare time. The journey has been an extremely valuable way 
 ## Screenshots
 
 #### Homepage
-![homepage](/images/Github_screenshots/homepage.png)
+![homepage](static/images/Github_screenshots/homepage.png)
 #### Blog list
-![blog](/images/Github_screenshots/blog.png)
+![blog](static/images/Github_screenshots/blog.png)
 #### Books section
-![books](/images/Github_screenshots/books.png)
+![books](static/images/Github_screenshots/books.png)
 
 ---
 Acknowledgements:
