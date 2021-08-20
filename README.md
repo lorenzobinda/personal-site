@@ -7,9 +7,9 @@ All made by me in my spare time. The journey has been an extremely valuable way 
 
 
 ## Screenshots
-
+These are some screenshots about the work-in-progress. They are took with the dark-mode, but also a classic light-mode is included. The website will be available both in English and Italian.
 #### Homepage
-![homepage](static/images/Github_screenshots/homepage.png)
+![homepage_dark](static/images/Github_screenshots/homepage.png)
 #### Blog list
 ![blog](static/images/Github_screenshots/blog.png)
 #### Books section
