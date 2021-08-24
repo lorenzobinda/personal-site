@@ -59,47 +59,58 @@ other = "warning"
 [error]
 other = "error"
 
-# Books categories:
-[cat_self_improvement]
-  other = "SELF-IMPROVEMENT"
-[cat_tech]
-  other = "TECHNOLOGY"
-[cat_biographies]
-  other = "BIOGRAPHIES"
-[cat_fiction]
-  other = "FICTION"
-[cat_philosophy]
-  other = "PHILOSOPHY"
-[cat_other]
-  other = "OTHER"
-#end
-
-# Favorite books:
-[favorite_books]
-  other = "Favorite Books:"
-[fav_book_1]
-  other = "Atomic Habits"
-[fav_book_2]
-  other = "Shoe Dog"
-[fav_book_3]
-  other = "The Hitchhiker's Guide to the Galaxy"
-#end
+#####################################################################
 
 # Added by me:
-[readingnow_books]
-other = "Reading now:"
-
-[written_by]
-other = "by"
-
-[look_at]
-other = "Look at"
-
-[on]
-other = "on"
-
 [articles_list]
-other = "All the articles:"
-
+  other = "All the articles:"
 [read_next]
-other = "READ NEXT:"
+  other = "READ NEXT:"
+
+#####################################################################
+
+# Books section:
+  # Books categories:
+  [cat_self_improvement]
+    other = "SELF-IMPROVEMENT"
+  [cat_tech]
+    other = "TECHNOLOGY"
+  [cat_biographies]
+    other = "BIOGRAPHIES"
+  [cat_fiction]
+    other = "FICTION"
+  [cat_philosophy]
+    other = "PHILOSOPHY"
+  [cat_other]
+    other = "OTHER"
+  #end
+
+  # Favorite books:
+  [favorite_books]
+    other = "Favorite Books:"
+  [fav_book_1]
+    other = "Atomic Habits"
+  [fav_book_2]
+    other = "Shoe Dog"
+  [fav_book_3]
+    other = "The Hitchhiker's Guide to the Galaxy"
+  #end
+
+  [readingnow_books]
+    other = "Reading now:"
+  [written_by]
+    other = "by"
+  [look_at]
+    other = "Look at"
+  [on]
+    other = "on"
+
+#####################################################################
+
+# Form for collecting emails:
+[catchy_phrase]
+  other = "Are you interested in my work? Let's get in contact!"
+[subscribe]
+  other = "Subscribe"
+[email_address]
+  other = "Your email address"

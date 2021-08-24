@@ -50,47 +50,58 @@ other = "attenzione"
 [error]
 other = "errore"
 
-# Books categories:
-[cat_self_improvement]
-  other = "AUTOMIGLIORAMENTO"
-[cat_tech]
-  other = "TECNOLOGIA"
-[cat_biographies]
-  other = "BIOGRAFIE"
-[cat_fiction]
-  other = "NARRATIVA"
-[cat_philosophy]
-  other = "FILOSOFIA"
-[cat_other]
-  other = "ALTRO"
-#end
-
-# Favorite books:
-[favorite_books]
-  other = "Libri Preferiti:"
-[fav_book_1]
-  other = "Piccole abitudini per grandi cambiamenti"
-[fav_book_2]
-  other = "L'arte della vittoria"
-[fav_book_3]
-  other = "Guida galattica per gli autostoppisti"
-#end
+#####################################################################
 
 # Added by me:
-[readingnow_books]
-other = "Sto leggendo:"
-
-[written_by]
-other = "di"
-
-[look_at]
-other = "Guarda"
-
-[on]
-other = "su"
-
 [articles_list]
-other = "Tutti gli articoli:"
-
+  other = "Tutti gli articoli:"
 [read_next]
-other = "CONTINUA A LEGGERE:"
+  other = "CONTINUA A LEGGERE:"
+
+#####################################################################
+
+# Books section:
+  # Books categories:
+  [cat_self_improvement]
+    other = "AUTOMIGLIORAMENTO"
+  [cat_tech]
+    other = "TECNOLOGIA"
+  [cat_biographies]
+    other = "BIOGRAFIE"
+  [cat_fiction]
+    other = "NARRATIVA"
+  [cat_philosophy]
+    other = "FILOSOFIA"
+  [cat_other]
+    other = "ALTRO"
+  #end
+
+  # Favorite books:
+  [favorite_books]
+    other = "Libri Preferiti:"
+  [fav_book_1]
+    other = "Piccole abitudini per grandi cambiamenti"
+  [fav_book_2]
+    other = "L'arte della vittoria"
+  [fav_book_3]
+    other = "Guida galattica per gli autostoppisti"
+  #end
+
+  [readingnow_books]
+    other = "Sto leggendo:"
+  [written_by]
+    other = "di"
+  [look_at]
+    other = "Guarda"
+  [on]
+    other = "su"
+
+#####################################################################
+
+# Form for collecting emails:
+[catchy_phrase]
+  other = "Ti interessa il mio lavoro? Teniamoci in contatto!"
+[subscribe]
+  other = "Iscriviti"
+[email_address]
+  other = "Il tuo indirizzo email"
