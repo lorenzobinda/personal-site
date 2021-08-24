@@ -1,0 +1,24 @@
+@mixin global_changes_dark {
+  .form {
+    border: 2px solid $link-color-dark;
+    background-color: $alt-bg-color-dark;
+    
+    input {
+      background-color: $fg-color-dark;
+    }
+    button {
+      color: $bg-color-dark;
+      background-color: $link-color-dark;
+    }
+  }
+}
+
+body.colorscheme-dark {
+  @include global_changes_dark();
+}
+
+body.colorscheme-auto {
+  @media (prefers-color-scheme: dark) {
+    @include global_changes_dark();
+  }
+}

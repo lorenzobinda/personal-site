@@ -19,7 +19,9 @@
 
       <!-- Presentation in MD -->
       {{ .Content }}
-      <!-- End -->
+
+      <!-- Contact box for collecting emails -->
+      {{ partial "emailform.html" . }}
       
       <!-- Social list of buttons -->
       {{ with .Site.Params.social }}

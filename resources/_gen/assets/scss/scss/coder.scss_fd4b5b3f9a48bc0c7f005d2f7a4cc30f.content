@@ -3307,7 +3307,7 @@ img.emoji {
   .notice.error .notice-title {
     background-color: #f443361a; }
     .notice.error .notice-title i {
-      color: #e53935; }
+      color: #D55C5F; }
 
 .navigation {
   height: 6rem;
@@ -3652,6 +3652,7 @@ img.emoji {
     margin-top: 105px;
     margin-bottom: 5px; } }
 
+/* Socials section */
 .social-container {
   display: flex;
   justify-content: space-between;
@@ -3737,6 +3738,8 @@ img.emoji {
     .social-icon i {
       font-size: 4rem; } }
 
+/* end */
+/* Articles: */
 .title-dimension {
   font-size: 4.2rem;
   line-height: 4.6rem; }
@@ -3750,9 +3753,47 @@ img.emoji {
 
 .article-content {
   max-width: 74rem;
-  margin: 6rem auto; }
+  margin: 5rem auto -3rem auto; }
 
 #id-articles-list {
   margin-top: 9rem; }
+
+/* Email form: */
+.form {
+  max-width: 74rem;
+  margin: auto;
+  border: 2px solid #88c0d0;
+  border-radius: 10px;
+  background-color: #d8dee9;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+  text-align: center; }
+  .form h4 {
+    margin: 3rem; }
+  .form input {
+    width: 80%;
+    height: 4rem;
+    border: none;
+    border-radius: 4px;
+    color: #2e3440;
+    background-color: #eceff4;
+    padding: 2rem;
+    font-weight: 600; }
+  .form button {
+    margin: 1rem auto 2rem auto;
+    width: 80%;
+    height: 4rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #2e3440;
+    background-color: #88c0d0;
+    cursor: pointer; }
+    .form button:hover {
+      filter: brightness(107%);
+      text-decoration: underline; }
+    .form button:active {
+      filter: brightness(93%);
+      text-decoration: underline; }
 
 /*# sourceMappingURL=coder.css.map */

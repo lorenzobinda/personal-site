@@ -1,4 +1,4 @@
-@mixin books_page_dark {
+@mixin contact_page_dark {
   .social-icon {
     background-color: $alt-bg-color-dark;
   
@@ -16,11 +16,11 @@
 }
 
 body.colorscheme-dark {
-  @include books_page_dark();
+  @include contact_page_dark();
 }
 
 body.colorscheme-auto {
   @media (prefers-color-scheme: dark) {
-    @include books_page_dark();
+    @include contact_page_dark();
   }
 }
