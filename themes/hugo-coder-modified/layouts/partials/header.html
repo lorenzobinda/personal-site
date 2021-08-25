@@ -28,7 +28,18 @@
                 {{ $node.Scratch.Set "separator" false }}
               {{ end }}
               <li class="navigation-item">
-                <a href="{{ .Permalink }}">{{ .Language.LanguageName | emojify }}</a>
+                <a href="{{ .Permalink }}">
+                  <!-- correction to always display the country flags -->
+                  <!-- original code: {{ .Language.LanguageName | emojify }} -->
+                  {{ if eq .Language.LanguageName ":uk:" }}
+                    <img src="/images/flags/united-kingdom-flag-3d-icon-32.png" alt="EN">
+                  {{ end }}
+
+                  {{ if eq .Language.LanguageName ":it:" }}
+                    <img src="/images/flags/italy-flag-3d-icon-32.png" alt="IT">
+                  {{ end }}
+                  <!-- end -->
+                </a>
               </li>
             {{ end }}
           {{ end }}
