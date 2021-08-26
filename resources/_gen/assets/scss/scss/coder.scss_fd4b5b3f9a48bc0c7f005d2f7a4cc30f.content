@@ -3049,7 +3049,6 @@ table tr th:last-child {
   border-right: 0; }
 
 img {
-  max-height: 40rem;
   max-width: 100%; }
 
 figure {
@@ -3782,7 +3781,7 @@ img.emoji {
     padding: 2rem;
     font-weight: 600; }
   .form button {
-    margin: 1rem auto 2rem auto;
+    margin: 1rem auto 1rem auto;
     width: 80%;
     height: 4rem;
     border: none;
@@ -3798,5 +3797,17 @@ img.emoji {
     .form button:active {
       filter: brightness(93%);
       text-decoration: underline; }
+  .form p {
+    margin: 1rem auto 2.5rem auto;
+    width: 75%;
+    font-size: 1.4rem;
+    line-height: normal;
+    font-style: italic; }
+    @media only screen and (max-width: 760px) {
+      .form p {
+        font-size: 1.2rem; } }
+/* Success page */
+.enorme {
+  height: 800px; }
 
 /*# sourceMappingURL=coder.css.map */

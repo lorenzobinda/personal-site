@@ -50,7 +50,7 @@
     font-weight: 600;  
   }
   button {
-    margin: 1rem auto 2rem auto;
+    margin: 1rem auto 1rem auto;
     width: 80%;
     height: 4rem;
     border: none;
@@ -73,4 +73,20 @@
       text-decoration: underline;
     }
   }
+  p {
+    margin: 1rem auto 2.5rem auto;
+    width: 75%;
+    font-size: 1.4rem;
+    line-height: normal;
+    font-style: italic;
+
+    @media only screen and (max-width: 760px) {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+/* Success page */
+.enorme {
+  height: 800px;
 }
