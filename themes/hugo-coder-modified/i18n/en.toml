@@ -108,9 +108,11 @@ other = "error"
 #####################################################################
 
 # Form for collecting emails:
-[catchy_phrase]
+[email_catchy_phrase]
   other = "Are you interested in my work? Let's get in contact!"
-[subscribe]
+[email_subscribe]
   other = "Subscribe"
 [email_address]
   other = "Your email address"
+[email_dont_worry]
+  other = "Don't worry, I send emails infrequently, and will never share your email address with anyone else."

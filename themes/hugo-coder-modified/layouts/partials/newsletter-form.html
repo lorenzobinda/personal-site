@@ -1,11 +1,13 @@
 <div class="form">
-  <form name="email_list" method="POST" data-netlify="true" action="/layouts/newsletter-thanks.html">
+  <form name="contact" method="POST" data-netlify="true" action="/newsletter-thanks/">
+    <input type="hidden" name="form-name" value="contact" />
     <h4>
-      {{ i18n "catchy_phrase" }}
+      {{ i18n "email_catchy_phrase" }}
     </h4>
     <div>
-      <input id="email" name="email" type="email" placeholder='{{ i18n "email_address" }}' required/>
+      <input name="email" type="email" placeholder='{{ i18n "email_address" }}' required/>
     </div>
-    <button type="submit">{{ i18n "subscribe" }}</button>
+    <button type="submit">{{ i18n "email_subscribe" }}</button>
   </form>
+  <p>{{ i18n "email_dont_worry" }}</p>
 </div>
