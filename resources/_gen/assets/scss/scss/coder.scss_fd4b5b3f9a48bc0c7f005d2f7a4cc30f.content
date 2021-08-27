@@ -3587,9 +3587,12 @@ img.emoji {
     margin-top: 2px;
     line-height: 1.4;
     margin-bottom: 0px; }
-  .article-card__datebox {
+  .article-card__box {
     position: relative;
     height: 30rem; }
+    .article-card__box a {
+      color: #2e3440;
+      text-decoration: none; }
   .article-card__date {
     position: absolute;
     top: -3px;

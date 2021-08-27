@@ -250,6 +250,8 @@ body.colorscheme-dark .article-card {
     color: #d8dee9; }
   body.colorscheme-dark .article-card__header {
     color: #d8dee9; }
+  body.colorscheme-dark .article-card__box a {
+    color: #d8dee9; }
   body.colorscheme-dark .article-card__date {
     background-color: rgba(216, 222, 233, 0.8);
     color: #2e3440; }
@@ -266,6 +268,8 @@ body.colorscheme-dark .article-card {
     body.colorscheme-auto .article-card__content {
       color: #d8dee9; }
     body.colorscheme-auto .article-card__header {
+      color: #d8dee9; }
+    body.colorscheme-auto .article-card__box a {
       color: #d8dee9; }
     body.colorscheme-auto .article-card__date {
       background-color: rgba(216, 222, 233, 0.8);

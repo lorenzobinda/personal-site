@@ -9,6 +9,11 @@
     &__header {
       color: $fg-color-dark;
     }
+    &__box {
+      a {
+        color: $fg-color-dark;
+      }
+    }
     &__date {
       background-color: $fg-color-opaque-dark;
       color: $alt-bg-color-dark;
