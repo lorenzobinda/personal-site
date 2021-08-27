@@ -276,41 +276,50 @@ body.colorscheme-dark .article-card {
       body.colorscheme-auto .article-card__tag a {
         color: #2e3440; } }
 
-body.colorscheme-dark .social-icon {
-  background-color: #2e3440; }
-  body.colorscheme-dark .social-icon i {
-    color: #d8dee9; }
-  body.colorscheme-dark .social-icon:hover {
-    background-color: #d8dee9; }
-    body.colorscheme-dark .social-icon:hover i {
-      color: #ebcb8b; }
-
-@media (prefers-color-scheme: dark) {
-  body.colorscheme-auto .social-icon {
+body.colorscheme-dark {
+  /* SOCIALS section */
+  /* JOIN NEWSLETTER banner */ }
+  body.colorscheme-dark .social-icon {
     background-color: #2e3440; }
-    body.colorscheme-auto .social-icon i {
+    body.colorscheme-dark .social-icon i {
       color: #d8dee9; }
-    body.colorscheme-auto .social-icon:hover {
+    body.colorscheme-dark .social-icon:hover {
       background-color: #d8dee9; }
-      body.colorscheme-auto .social-icon:hover i {
-        color: #ebcb8b; } }
-
-body.colorscheme-dark .form {
-  border: 2px solid #ebcb8b;
-  background-color: #2e3440; }
-  body.colorscheme-dark .form input {
-    background-color: #d8dee9; }
-  body.colorscheme-dark .form button {
+      body.colorscheme-dark .social-icon:hover i {
+        color: #ebcb8b; }
+  body.colorscheme-dark .form {
+    border: 2px solid #ebcb8b;
+    background-color: #2e3440; }
+    body.colorscheme-dark .form input {
+      background-color: #d8dee9; }
+    body.colorscheme-dark .form button {
+      color: #3b4252;
+      background-color: #ebcb8b; }
+  body.colorscheme-dark .success-page a {
     color: #3b4252;
     background-color: #ebcb8b; }
 
 @media (prefers-color-scheme: dark) {
-  body.colorscheme-auto .form {
-    border: 2px solid #ebcb8b;
-    background-color: #2e3440; }
-    body.colorscheme-auto .form input {
-      background-color: #d8dee9; }
-    body.colorscheme-auto .form button {
+  body.colorscheme-auto {
+    /* SOCIALS section */
+    /* JOIN NEWSLETTER banner */ }
+    body.colorscheme-auto .social-icon {
+      background-color: #2e3440; }
+      body.colorscheme-auto .social-icon i {
+        color: #d8dee9; }
+      body.colorscheme-auto .social-icon:hover {
+        background-color: #d8dee9; }
+        body.colorscheme-auto .social-icon:hover i {
+          color: #ebcb8b; }
+    body.colorscheme-auto .form {
+      border: 2px solid #ebcb8b;
+      background-color: #2e3440; }
+      body.colorscheme-auto .form input {
+        background-color: #d8dee9; }
+      body.colorscheme-auto .form button {
+        color: #3b4252;
+        background-color: #ebcb8b; }
+    body.colorscheme-auto .success-page a {
       color: #3b4252;
       background-color: #ebcb8b; } }
 

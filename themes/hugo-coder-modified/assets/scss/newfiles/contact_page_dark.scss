@@ -1,4 +1,5 @@
 @mixin contact_page_dark {
+  /* SOCIALS section */
   .social-icon {
     background-color: $alt-bg-color-dark;
   
@@ -11,6 +12,27 @@
       i {
         color: $link-color-dark;
       }
+    }
+  }
+
+  /* JOIN NEWSLETTER banner */
+  .form {
+    border: 2px solid $link-color-dark;
+    background-color: $alt-bg-color-dark;
+    
+    input {
+      background-color: $fg-color-dark;
+    }
+    button {
+      color: $bg-color-dark;
+      background-color: $link-color-dark;
+    }
+  }
+
+  .success-page {
+    a {
+      color: $bg-color-dark;
+      background-color: $link-color-dark;
     }
   }
 }

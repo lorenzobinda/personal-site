@@ -3654,7 +3654,7 @@ img.emoji {
     margin-top: 105px;
     margin-bottom: 5px; } }
 
-/* Socials section */
+/* SOCIALS section */
 .social-container {
   display: flex;
   justify-content: space-between;
@@ -3741,26 +3741,8 @@ img.emoji {
       font-size: 4rem; } }
 
 /* end */
-/* Articles: */
-.title-dimension {
-  font-size: 4.2rem;
-  line-height: 4.6rem; }
-  @media only screen and (max-width: 768px) {
-    .title-dimension {
-      font-size: 4rem;
-      line-height: 4.4rem; } }
-.article-box header {
-  margin: auto;
-  max-width: 74rem; }
-
-.article-content {
-  max-width: 74rem;
-  margin: 5rem auto -3rem auto; }
-
-#id-articles-list {
-  margin-top: 9rem; }
-
-/* Email form: */
+/* ##################################################### */
+/* JOIN NEWSLETTER banner */
 .form {
   max-width: 74rem;
   margin: auto;
@@ -3806,8 +3788,49 @@ img.emoji {
     @media only screen and (max-width: 760px) {
       .form p {
         font-size: 1.2rem; } }
-/* Success page */
-.enorme {
-  height: 800px; }
+/* Successfully joined the mailing list */
+.success-page {
+  text-align: center;
+  /* Mobile Styles */ }
+  .success-page img {
+    margin-top: 5rem;
+    height: 40rem; }
+  .success-page h4 {
+    margin-top: 0;
+    margin-bottom: 6rem; }
+  .success-page a {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #eceff4;
+    background-color: #88c0d0;
+    border-radius: 4px;
+    padding: 0.7rem 3rem; }
+  @media only screen and (max-width: 760px) {
+    .success-page img {
+      margin-top: 0;
+      height: 32rem; }
+    .success-page h1 {
+      margin: 0 auto; }
+    .success-page h4 {
+      margin-bottom: 4rem; } }
+/* end */
+/* Articles: */
+.title-dimension {
+  font-size: 4.2rem;
+  line-height: 4.6rem; }
+  @media only screen and (max-width: 768px) {
+    .title-dimension {
+      font-size: 4rem;
+      line-height: 4.4rem; } }
+.article-box header {
+  margin: auto;
+  max-width: 74rem; }
+
+.article-content {
+  max-width: 74rem;
+  margin: 5rem auto -3rem auto; }
+
+#id-articles-list {
+  margin-top: 9rem; }
 
 /*# sourceMappingURL=coder.css.map */

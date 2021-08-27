@@ -116,3 +116,6 @@ other = "error"
   other = "Your email address"
 [email_dont_worry]
   other = "Don't worry, I send emails infrequently, and will never share your email address with anyone else."
+# Successful form subscription page:
+[email_back_home]
+  other = "Go back home."

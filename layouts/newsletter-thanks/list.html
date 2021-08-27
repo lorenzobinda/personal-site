@@ -7,20 +7,12 @@
   {{- .Title }} · {{ .Site.Title -}}
 {{ end }}
 {{ define "content" }}
-  <section class="container page">
-    <article>
-      <header>
-        <h1 class="title">
-          <a class="title-link" href="{{ .Permalink | safeURL }}">
-            {{ .Title }}
-          </a>
-        </h1>
-      </header>
-
-      {{ .Content }}
-
-      <img src="/images/rocket.png" alt="ciao" class="enorme">
-
-    </article>
-  </section>
+  <div class="container page centered">
+    <div class="success-page">
+      <img src="/images/illustrations/rocket_yellow.svg/" alt="Rocket launch!!!"/>
+      <h1 class="title">{{ .Title }}</h1>
+      <h4>{{ .Content }}</h4>
+      <a href="{{ .Site.BaseURL | relLangURL }}">{{ i18n "email_back_home" }}</a>
+    </div>
+  </div>
 {{ end }}

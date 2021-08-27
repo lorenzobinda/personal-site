@@ -107,3 +107,6 @@ other = "errore"
   other = "Il tuo indirizzo email"
 [email_dont_worry]
   other = "Non preoccuparti, manderò mail solo raramente, e di sicuro non condividerò il tuo indirizzo con nessuno."
+# Successful form subscription page:
+[email_back_home]
+  other = "Ritorna alla home."
