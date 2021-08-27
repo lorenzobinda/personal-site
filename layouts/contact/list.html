@@ -19,9 +19,6 @@
 
       <!-- Presentation in MD -->
       {{ .Content }}
-
-      <!-- Contact box for collecting emails -->
-      {{ partial "newsletter-form.html" . }}
       
       <!-- Social list of buttons -->
       {{ with .Site.Params.social }}
@@ -44,6 +41,9 @@
       </ul>
       {{ end }}
       <!-- End -->
+
+      <!-- Contact box for collecting emails -->
+      {{ partial "newsletter-form.html" . }}
 
     </article>
   </section>
