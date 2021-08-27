@@ -3817,7 +3817,7 @@ img.emoji {
     .success-page h4 {
       margin-bottom: 4rem; } }
 /* end */
-/* Articles: */
+/* ARTICLES: */
 .title-dimension {
   font-size: 4.2rem;
   line-height: 4.6rem; }
@@ -3835,5 +3835,9 @@ img.emoji {
 
 #id-articles-list {
   margin-top: 9rem; }
+
+/* ERROR 404: */
+.error img {
+  max-height: 40rem; }
 
 /*# sourceMappingURL=coder.css.map */

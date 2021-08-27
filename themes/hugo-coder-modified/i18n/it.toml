@@ -21,7 +21,7 @@ other = "{{ .Count }} minuti di lettura"
 other = "Pagina non trovata"
 
 [page_does_not_exist]
-other = "Siamo spiacenti, questa pagina non esiste."
+other = "Mi dispiace, questa pagina non esiste."
 
 [head_back]
 other = "Torna alla <a href=\"{{ . }}\">homepage</a>."
