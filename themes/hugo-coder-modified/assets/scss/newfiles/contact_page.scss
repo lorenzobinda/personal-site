@@ -47,7 +47,7 @@
   }
 }
 
-/* Mobile Styles */
+/* single article per row (Mobile) */
 @media only screen and (max-width: 760px) {
   .social-box {
     min-width: 14rem;
@@ -72,7 +72,7 @@
     }
   }
 }
-/* Tablet Styles */
+/* 2 articles side-by-side (Tablet) */
 @media only screen and (min-width: 760px) and (max-width: 1152px) {
   .social-box {
     min-width: 16rem;
@@ -97,7 +97,7 @@
     }
   }
 }
-/* Desktop Styles */
+/* 3 articles side-by-side (Desktop) */
 @media only screen and (min-width: 1152px) {
   .social-box {
     min-width: 18rem;
