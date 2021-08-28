@@ -5,7 +5,7 @@
 - Product reviews
 
 ## Possible articles:
-- [] Why this site
+1. Why this site
 2. iPhone review
 3. Software reviews: Notion, Obsidian, Pocket
 4. My 2 cents (eg. Apple Event, tech presentation, major event/fact...)
@@ -15,7 +15,7 @@
 6. Personal Knowledge Management 
 7. Why justified text is bad on Microsoft Word! (is NOT good)
 
-- Page about 
+- Page about wineries around the world [unlisted]
 
 
 ---
