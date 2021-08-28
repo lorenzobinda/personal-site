@@ -5,7 +5,7 @@
 - Product reviews
 
 ## Possible articles:
--[] Why this site
+- [] Why this site
 2. iPhone review
 3. Software reviews: Notion, Obsidian, Pocket
 4. My 2 cents (eg. Apple Event, tech presentation, major event/fact...)
