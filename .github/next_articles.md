@@ -14,8 +14,17 @@
   - Why reading is not enough? -> PKM and taking notes
 6. Personal Knowledge Management 
 7. Why justified text is bad on Microsoft Word! (is NOT good)
+8. (Why I switched to iPhone: privacy, better 3rd-party app support, coming first)
 
 - Page about wineries around the world [unlisted]
+
+### My suggestions:
+add a section of things I like/suggest:
+- films
+- softwares
+- articles
+- quotes
+- videos
 
 
 ---
