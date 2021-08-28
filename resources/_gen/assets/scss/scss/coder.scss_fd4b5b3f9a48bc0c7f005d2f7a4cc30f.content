@@ -3693,7 +3693,7 @@ img.emoji {
     .social-icon:hover i {
       color: #88c0d0; }
 
-/* Mobile Styles */
+/* single article per row (Mobile) */
 @media only screen and (max-width: 760px) {
   .social-box {
     min-width: 14rem;
@@ -3710,7 +3710,7 @@ img.emoji {
     .social-icon i {
       font-size: 3.5rem; } }
 
-/* Tablet Styles */
+/* 2 articles side-by-side (Tablet) */
 @media only screen and (min-width: 760px) and (max-width: 1152px) {
   .social-box {
     min-width: 16rem;
@@ -3727,7 +3727,7 @@ img.emoji {
     .social-icon i {
       font-size: 4rem; } }
 
-/* Desktop Styles */
+/* 3 articles side-by-side (Desktop) */
 @media only screen and (min-width: 1152px) {
   .social-box {
     min-width: 18rem;
@@ -3839,5 +3839,14 @@ img.emoji {
 /* ERROR 404: */
 .error img {
   max-height: 40rem; }
+
+/* HOMEPAGE: */
+.red1 {
+  border: 1px solid red;
+  flex: 1; }
+
+@media only screen and (max-width: 960px) {
+  .red2 {
+    display: block; } }
 
 /*# sourceMappingURL=coder.css.map */

@@ -1,5 +1,5 @@
-<section class="container centered">
-  <div class="about">
+<section class="container centered red2">
+  <div class="about red1">
     {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
       {{ with .Site.Params.avatarURL }}
         <div class="avatar"><img src="{{ . | relURL }}" alt="avatar"></div>
@@ -27,5 +27,15 @@
       {{ end }}
     </ul>
     {{ end }}
+  </div>
+
+  <!-- Side section: -->
+  <div class="about red1">
+    <div>
+      Latest article:
+    </div>
+    <div>
+      I'm reading:
+    </div>
   </div>
 </section>
