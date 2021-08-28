@@ -9,7 +9,7 @@
         <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
       </label>
       <ul class="navigation-list">
-        {{ with .Site.Menus.main}}
+        {{ with .Site.Menus.main }}
           {{ range sort . }}
             <li class="navigation-item">
               <a class="navigation-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
@@ -31,11 +31,11 @@
                 <a href="{{ .Permalink }}">
                   <!-- correction to always display the country flags -->
                   <!-- original code: {{ .Language.LanguageName | emojify }} -->
-                  {{ if eq .Language.LanguageName ":uk:" }}
+                  {{ if eq .Language.LanguageName "English" }}
                     <img src="/images/flags/united-kingdom-flag-3d-icon-32.png" alt="EN">
                   {{ end }}
 
-                  {{ if eq .Language.LanguageName ":it:" }}
+                  {{ if eq .Language.LanguageName "Italian" }}
                     <img src="/images/flags/italy-flag-3d-icon-32.png" alt="IT">
                   {{ end }}
                   <!-- end -->

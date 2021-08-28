@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://example.com/"
 title = "Lorenzo Binda"
 theme = "hugo-coder-modified"
 languageCode = "en"
@@ -134,8 +134,9 @@ icon = "fa fa-github"
 weight = 4
 url = "https://github.com/lorenzobinda"
 
+[languages]
 [languages.en]
-languageName = ":uk:"
+languageName = "English"
 
 [[languages.en.menu.main]]
 name = "Blog"
@@ -153,7 +154,7 @@ weight = 3
 url = "contact/"
 
 [languages.it]
-languageName = ":it:"
+languageName = "Italian"
 title = "Lorenzo Binda"
 
 [languages.it.params]
