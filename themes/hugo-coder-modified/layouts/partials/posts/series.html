@@ -18,11 +18,7 @@
         {{ $maxItems := $.Site.Params.maxSeeAlsoItems | default 5 }}
         {{ range first (add $maxItems 1) $series.Pages }}
           {{ if ne .RelPermalink $currentPageUrl }}
-            <li>
-              <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
-              <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
-              <span class="tag">{{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}</span>
-            </li>
+            {{ .Render "lishort" }}
           {{ end }}
         {{ end }}
         </ul>

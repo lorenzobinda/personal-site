@@ -5,7 +5,11 @@
       <img class="article-card__img" src="{{ .Params.coverImage }}" alt="
     Article's cover image failed to load..."/>
     </a>
-    <div class="article-card__date">{{ .Date.Format (.Site.Params.dateFormat) }}</div>
+    <div class="article-card__date">
+      {{ with .Date  }}
+        {{ partial "date.html" (dict "date" . "language" $.Page.Language "mesi" $.Site.Data.mesi) }}
+      {{ end }}
+    </div>
   </div>
 
   <div class="article-card__content">

@@ -1,5 +1,9 @@
 <li>
-  <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
+  <span class="date">
+    {{ with .Date  }}
+      {{ partial "date.html" (dict "date" . "language" $.Page.Language "mesi" $.Site.Data.mesi) }}
+    {{ end }}
+  </span>
   <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
   <span class="tag">{{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}</span>
 </li>

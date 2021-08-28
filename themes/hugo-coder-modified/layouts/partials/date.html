@@ -1,0 +1,5 @@
+{{ if eq "it" .language.Lang }}
+    {{ .date.Day }} {{ index .mesi (printf "%d" .date.Month) }} {{ .date.Year }}
+{{ else }}
+    {{ .date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+{{ end }}
