@@ -3855,12 +3855,12 @@ img.emoji {
   max-height: 40rem; }
 
 /* HOMEPAGE: */
-.red1 {
+.home-item {
   border: 1px solid red;
   flex: 1; }
 
 @media only screen and (max-width: 960px) {
-  .red2 {
+  .home-box {
     display: block; } }
 
 /*# sourceMappingURL=coder.css.map */

@@ -1,5 +1,5 @@
-<section class="container centered red2">
-  <div class="about red1">
+<section class="container centered home-box">
+  <div class="about home-item">
     {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
       {{ with .Site.Params.avatarURL }}
         <div class="avatar"><img src="{{ . | relURL }}" alt="avatar"></div>
@@ -30,12 +30,27 @@
   </div>
 
   <!-- Side section: -->
-  <div class="about red1">
+  <div class="about home-item">
     <div>
       Latest article:
+      <ul>
+        {{ range first 1 .Paginator.Pages }}
+          <li>
+            <a href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+            <p>{{ truncate 60 .Description }}</p>
+          </li>
+        {{ end }}
+      </ul>
     </div>
     <div>
       I'm reading:
+      <ul>
+        {{ range $.Site.Data.books.reading_now }}
+          {{ $index := printf "title_%s" $.Site.Language.Lang }}
+          {{ $value := index . $index }}
+          <li><a href="{{ .link }}" title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon' target="_blank" rel="nofollow noopener">{{ truncate 40 $value }}</a>, by {{ .author }}</li>
+        {{ end }}
+      </ul>
     </div>
   </div>
 </section>
