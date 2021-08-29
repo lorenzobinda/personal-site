@@ -3133,9 +3133,6 @@ img.emoji {
     width: 1.6rem;
     margin-left: 0;
     margin-right: 0.5rem; }
-  .content .post .post-meta .date .posted-on {
-    margin-left: 0;
-    margin-right: 1.5rem; }
   .content figure {
     margin: 0;
     padding: 0; }
@@ -3160,7 +3157,7 @@ img.emoji {
     font-size: 1.8rem; }
     @media only screen and (max-width: 768px) {
       .list ul li {
-        margin: 1.6rem 0 1.6rem 0; } }
+        margin: 1.6rem 0; } }
     .list ul li .date {
       display: inline-block;
       flex: 1.2;
@@ -3181,7 +3178,9 @@ img.emoji {
         color: #88c0d0; }
     .list ul li .tag {
       flex: 0.8; }
-
+      @media only screen and (max-width: 768px) {
+        .list ul li .tag {
+          float: right; } }
 @media only screen and (min-width: 768.1px) {
   .list ul:not(.pagination) li {
     display: flex; } }
@@ -3835,6 +3834,21 @@ img.emoji {
 
 #id-articles-list {
   margin-top: 9rem; }
+
+/* Post meta: date, reading time, tags, cats */
+.post-meta {
+  display: flex;
+  justify-content: space-between; }
+  @media only screen and (max-width: 960px) {
+    .post-meta {
+      display: block; } }
+  .post-meta .grouped-meta {
+    display: flex; }
+    @media only screen and (max-width: 450px) {
+      .post-meta .grouped-meta {
+        display: block; } }
+.margin-right {
+  margin-right: 2rem; }
 
 /* ERROR 404: */
 .error img {
