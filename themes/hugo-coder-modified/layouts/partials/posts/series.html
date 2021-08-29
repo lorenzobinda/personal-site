@@ -7,9 +7,9 @@
     {{ if gt (len $series.Pages) 1 }}
 
       <!-- section modified to better display the read latest posts section: -->
-      <h2 id="{{ i18n "read_next" | default "READ NEXT:" | anchorize }}-{{ anchorize . | safeURL }}">
+      <h2 id='{{ i18n "read_next" | default "READ NEXT:" | anchorize }}-{{ anchorize . | safeURL }}'>
         {{ i18n "read_next" | default "READ NEXT:" }}
-        <a class="heading-link" href="#{{ i18n "read_next" | default "READ NEXT:" | anchorize }}-{{ anchorize . | safeURL }}">
+        <a class="heading-link" href='#{{ i18n "read_next" | default "READ NEXT:" | anchorize }}-{{ anchorize . | safeURL }}'>
           <i class="fa fa-link" aria-hidden="true"></i>
         </a>
       </h2>
