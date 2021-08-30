@@ -61,11 +61,13 @@ other = "error"
 
 #####################################################################
 
-# Added by me:
+# Homepage / Articles:
 [articles_list]
   other = "All the articles:"
 [read_next]
   other = "READ NEXT:"
+[latest_article]
+  other = "Latest post:"
 
 #####################################################################
 
@@ -97,7 +99,7 @@ other = "error"
   #end
 
   [readingnow_books]
-    other = "Reading now:"
+    other = "I'm reading:"
   [written_by]
     other = "by"
   [look_at]

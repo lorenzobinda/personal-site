@@ -52,11 +52,13 @@ other = "errore"
 
 #####################################################################
 
-# Added by me:
+# Homepage / Articles:
 [articles_list]
   other = "Tutti gli articoli:"
 [read_next]
   other = "CONTINUA A LEGGERE:"
+[latest_article]
+  other = "Post più recente:"
 
 #####################################################################
 
