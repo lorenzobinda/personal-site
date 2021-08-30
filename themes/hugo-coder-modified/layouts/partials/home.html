@@ -32,10 +32,10 @@
   <!-- Side section: -->
   <div class="home-item latest">
     <div>
-      <span>
-        {{ i18n "latest_article" }}
-      </span>
       <ul>
+        <div class="latest-title">
+          {{ i18n "latest_article" }}
+        </div>
         {{ range first 1 .Paginator.Pages }}
           <li>
             <a href="{{ .Params.externalLink | default .RelPermalink }}" id="latest-article-title">{{ .Title }}</a>
@@ -44,11 +44,12 @@
         {{ end }}
       </ul>
     </div>
+
     <div>
-      <span>
-        {{ i18n "readingnow_books" }}
-      </span>
       <ul>
+        <div class="latest-title">
+          {{ i18n "readingnow_books" }}
+        </div>
         {{ range $.Site.Data.books.reading_now }}
           {{ $index := printf "title_%s" $.Site.Language.Lang }}
           {{ $value := index . $index }}
