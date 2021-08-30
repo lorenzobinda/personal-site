@@ -1,5 +1,17 @@
 @mixin global_changes_dark {
-  
+  .latest {
+    span {
+      color: $fg-color-opaque-dark;
+    }
+
+    ul {
+      li {
+        span {
+          color: $fg-color-dark;
+        }
+      }
+    }
+  }
 }
 
 body.colorscheme-dark {

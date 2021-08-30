@@ -30,25 +30,29 @@
   </div>
 
   <!-- Side section: -->
-  <div class="about home-item">
+  <div class="home-item latest">
     <div>
-      Latest article:
+      <span>
+        {{ i18n "latest_article" }}
+      </span>
       <ul>
         {{ range first 1 .Paginator.Pages }}
           <li>
-            <a href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
-            <p>{{ truncate 60 .Description }}</p>
+            <a href="{{ .Params.externalLink | default .RelPermalink }}" id="latest-article-title">{{ .Title }}</a>
+            <p>{{ .Description }}</p>
           </li>
         {{ end }}
       </ul>
     </div>
     <div>
-      I'm reading:
+      <span>
+        {{ i18n "readingnow_books" }}
+      </span>
       <ul>
         {{ range $.Site.Data.books.reading_now }}
           {{ $index := printf "title_%s" $.Site.Language.Lang }}
           {{ $value := index . $index }}
-          <li><a href="{{ .link }}" title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon' target="_blank" rel="nofollow noopener">{{ truncate 40 $value }}</a>, by {{ .author }}</li>
+          <li><a href="{{ .link }}" title='{{ i18n "look_at" }} &#34;{{ $value }}&#34; {{ i18n "on" }} Amazon' target="_blank" rel="nofollow noopener">{{ truncate 40 $value }}</a><span>, by {{ .author }}</span></li>
         {{ end }}
       </ul>
     </div>

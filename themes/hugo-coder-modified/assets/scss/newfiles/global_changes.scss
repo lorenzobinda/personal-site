@@ -54,8 +54,43 @@
 
 /* HOMEPAGE: */
 .home-item {
-  border: 1px solid red;
   flex: 1;
+  text-align: center;
+}
+
+.latest {
+  span {
+    font-style: italic;
+    font-size: 0.9em;
+    color: $fg-color-opaque;
+  }
+
+  ul {
+    margin-top: 0rem;
+    list-style: none;
+
+    li {
+      margin-left: 2rem;
+      margin-right: 5rem;
+
+      #latest-article-title {
+        font-size: 1.6em;
+      }
+
+      a {
+        font-weight: 600;
+      }
+      p {
+        margin-top: -0.2rem;
+        margin-bottom: 5rem;
+        line-height: 1.4em;
+      }
+      span {
+        color: $fg-color;
+        font-style: normal;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 960px) {

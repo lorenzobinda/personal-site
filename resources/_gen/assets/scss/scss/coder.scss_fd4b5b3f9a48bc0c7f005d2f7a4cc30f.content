@@ -3189,38 +3189,36 @@ img.emoji {
   display: flex;
   align-items: center;
   justify-content: center; }
-  .centered .about {
-    text-align: center; }
-    .centered .about h1 {
-      margin-top: 2rem;
-      margin-bottom: 0.5rem; }
-    .centered .about h2 {
-      margin-top: 1rem;
-      margin-bottom: 0.5rem;
-      font-size: 2.4rem; }
-      @media only screen and (max-width: 768px) {
-        .centered .about h2 {
-          font-size: 2rem; } }
-    .centered .about ul {
-      list-style: none;
-      margin: 3rem 0 1rem 0;
-      padding: 0; }
-      .centered .about ul li {
-        display: inline-block;
-        position: relative; }
-        .centered .about ul li a {
-          color: #2e3440;
-          text-transform: uppercase;
-          margin-left: 1rem;
-          margin-right: 1rem;
-          font-size: 1.6rem; }
-          .centered .about ul li a:hover, .centered .about ul li a:focus {
-            color: #88c0d0; }
-          @media only screen and (max-width: 768px) {
-            .centered .about ul li a {
-              font-size: 1.4rem; } }
-          .centered .about ul li a i {
-            font-size: 3.2rem; }
+  .centered .about h1 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem; }
+  .centered .about h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 2.4rem; }
+    @media only screen and (max-width: 768px) {
+      .centered .about h2 {
+        font-size: 2rem; } }
+  .centered .about ul {
+    list-style: none;
+    margin: 3rem 0 1rem 0;
+    padding: 0; }
+    .centered .about ul li {
+      display: inline-block;
+      position: relative; }
+      .centered .about ul li a {
+        color: #2e3440;
+        text-transform: uppercase;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 1.6rem; }
+        .centered .about ul li a:hover, .centered .about ul li a:focus {
+          color: #88c0d0; }
+        @media only screen and (max-width: 768px) {
+          .centered .about ul li a {
+            font-size: 1.4rem; } }
+        .centered .about ul li a i {
+          font-size: 3.2rem; }
   .centered .error {
     text-align: center; }
     .centered .error h1 {
@@ -3856,8 +3854,31 @@ img.emoji {
 
 /* HOMEPAGE: */
 .home-item {
-  border: 1px solid red;
-  flex: 1; }
+  flex: 1;
+  text-align: center; }
+
+.latest span {
+  font-style: italic;
+  font-size: 0.9em;
+  color: rgba(46, 52, 64, 0.8); }
+
+.latest ul {
+  margin-top: 0rem;
+  list-style: none; }
+  .latest ul li {
+    margin-left: 2rem;
+    margin-right: 5rem; }
+    .latest ul li #latest-article-title {
+      font-size: 1.6em; }
+    .latest ul li a {
+      font-weight: 600; }
+    .latest ul li p {
+      margin-top: -0.2rem;
+      margin-bottom: 5rem;
+      line-height: 1.4em; }
+    .latest ul li span {
+      color: #2e3440;
+      font-style: normal; }
 
 @media only screen and (max-width: 960px) {
   .home-box {
