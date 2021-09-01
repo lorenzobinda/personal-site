@@ -8,6 +8,9 @@
 {{ end }}
 {{ define "content" }}
   <section class="container page">
+    <div class="centered contacts-image">
+      <img src="/images/illustrations/contacts.svg/" alt="People in a park"/>
+    </div>
     <article>
       <header>
         <h1 class="title">
@@ -21,25 +24,28 @@
       {{ .Content }}
       
       <!-- Social list of buttons -->
-      {{ with .Site.Params.social }}
-      <ul class="social-container">
-        {{ range sort . "weight" }}
-          <li class="social-box">
-            <div>
-              <div class="social-icon">
+      <div>
+        {{ with .Site.Params.social }}
+        <ul class="social-container">
+          {{ range sort . "weight" }}
+            <li class="social-box">
+              <div>
+                <div class="social-icon">
+                  <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
+                    <i class="{{ .icon }}" aria-hidden="true"></i>
+                  </a>
+                </div>
                 <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
-                  <i class="{{ .icon }}" aria-hidden="true"></i>
+                  <h5>{{ .user }}</h5>
                 </a>
+                <h6>{{ .description }}</h6>
               </div>
-              <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
-                <h5>{{ .user }}</h5>
-              </a>
-              <h6>{{ .description }}</h6>
-            </div>
-          </li>
-        {{ end }}
-      </ul>
+            </li>
+          {{ end }}
+        </ul>
       {{ end }}
+      </div>
+      
       <!-- End -->
 
       <!-- Contact box for collecting emails -->

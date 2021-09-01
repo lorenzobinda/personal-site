@@ -3659,7 +3659,11 @@ img.emoji {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-left: 0px; }
+  padding-left: 0px;
+  margin-bottom: 5rem; }
+
+.contacts-image img {
+  max-height: 40rem; }
 
 .social-box {
   list-style-type: none; }
@@ -3794,7 +3798,7 @@ img.emoji {
   /* Mobile Styles */ }
   .success-page img {
     margin-top: 5rem;
-    height: 40rem; }
+    max-height: 40rem; }
   .success-page h4 {
     margin-top: 0;
     margin-bottom: 6rem; }

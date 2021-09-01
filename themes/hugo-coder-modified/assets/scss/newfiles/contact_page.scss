@@ -4,6 +4,13 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding-left: 0px;
+  margin-bottom: 5rem;
+}
+
+.contacts-image {
+  img {
+    max-height: 40rem;
+  }
 }
 
 .social-box {
@@ -195,7 +202,7 @@
 
   img {
     margin-top: 5rem;
-    height: 40rem;
+    max-height: 40rem;
   }
   h4 {
     margin-top: 0;
