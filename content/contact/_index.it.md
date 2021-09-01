@@ -3,7 +3,7 @@ title: "Contatti"
 slug: "contact"
 ---
 
-## About me
+## Chi sono
 👨🏻‍🎓 Sono uno **studente di ingegneria gestionale** al Politecnico di Milano al quinto anno.
 
 💻 La mia ossessione principale è la **tecnologia** e mi affascina in qualsiasi sua sfumatura. Adoro programmare, imparare, e seguirne i nuovi sviluppi, ma la parte migliore è scovare nuove App che mi aiutino a *migliorare nel lavoro e nella vita*.

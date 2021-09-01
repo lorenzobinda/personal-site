@@ -3,7 +3,7 @@ title: "Contacts"
 slug: "contact"
 ---
 
-## Chi sono
+## About me
 👨🏻‍🎓 I'm a **management engineering student** at Politecnico of Milan in my 5th year. 
 
 💻 My number one obsession is **technology**, I'm interested in every aspect of it. I like coding, learning, following new developments, but the best part of it is discovering new Apps that can *improve my workflow and life management*. 
