@@ -3853,10 +3853,10 @@ img.emoji {
   max-height: 40rem; }
 
 /* HOMEPAGE: */
+/* Desktop: */
 .home-item {
   flex: 1;
-  text-align: center;
-  border: 1px solid red; }
+  text-align: center; }
 
 .latest ul {
   margin-top: 0rem;
@@ -3878,10 +3878,27 @@ img.emoji {
     margin-bottom: 5rem;
     line-height: 1.4em; }
 
+/* Tablet: */
 @media only screen and (min-width: 450.1px) and (max-width: 960px) {
   .home-box {
-    flex-direction: column; } }
+    flex-direction: column;
+    align-items: center; }
+  .home-item {
+    flex: 1;
+    margin-top: 12rem;
+    margin-bottom: 0;
+    align-items: center; }
+  .latest {
+    flex: 0.8;
+    margin-top: 0;
+    display: flex;
+    margin-bottom: 14rem; }
+    .latest div {
+      flex: 1; }
+    .latest ul li p {
+      margin-bottom: 0; } }
 
+/* Mobile: */
 @media only screen and (max-width: 450px) {
   .home-box {
     flex-direction: column; }

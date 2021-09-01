@@ -1,14 +1,11 @@
 @mixin global_changes_dark {
   .latest {
-    span {
-      color: $fg-color-opaque-dark;
-    }
-
     ul {
-      li {
-        span {
-          color: $fg-color-dark;
-        }
+      .latest-title {
+        color: $fg-color-opaque-dark;
+      }
+      span {
+        color: $fg-color-dark;
       }
     }
   }
