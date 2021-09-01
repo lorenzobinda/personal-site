@@ -21,7 +21,7 @@ unsafe = true
 author = "Lorenzo Binda"
 description = "Lorenzo Binda's personal website"
 keywords = "blog,engineer,personal,tech"
-info = "Productivity and Tech Enthusiast"
+info = "I'm an engineer. I like technology, productivity, space and many more."
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 footerContent = "Mostly I write whatever comes to my mind."
@@ -159,9 +159,9 @@ title = "Lorenzo Binda"
 
 [languages.it.params]
 author = "Lorenzo Binda"
-info = "Appassionato di Produttività e Tecnologia"
+info = "Sono un ingegnere. Sono appassionato di tecnologia, produttività, spazio, e molto altro."
 description = "Sito personale di Lorenzo Binda"
-keywords = "blog,ingegnere,persoonale,tecnologia"
+keywords = "blog,ingegnere,personale,tecnologia"
 footerContent = "Qui scrivo quello che mi passa per la testa."
 
 [[languages.it.menu.main]]
