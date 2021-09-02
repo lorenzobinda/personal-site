@@ -3663,7 +3663,7 @@ img.emoji {
   margin-bottom: 5rem; }
 
 .contacts-image img {
-  max-height: 40rem; }
+  max-height: 38rem; }
 
 .social-box {
   list-style-type: none; }
