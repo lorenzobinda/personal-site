@@ -53,7 +53,7 @@
 
 
 /* HOMEPAGE: */
-  /* Desktop: */
+  /* Desktop: (also default) */
 .home-item {
   flex: 1;
   text-align: center;
@@ -77,6 +77,9 @@
     }
 
     li {
+      line-height: 1.5em;
+      margin-bottom: 0.7rem;
+      
       #latest-article-title {
         font-size: 1.6em;
       }
@@ -85,9 +88,8 @@
         font-weight: 600;
       }
       p {
-        margin-top: -0.2rem;
+        margin-top: 0;
         margin-bottom: 5rem;
-        line-height: 1.4em;
       }
     }
   }
@@ -154,7 +156,7 @@
         margin-left: -40px;
 
         p {
-          margin-bottom: 3rem;
+          margin-bottom: 3.5rem;
         }
       }
     }

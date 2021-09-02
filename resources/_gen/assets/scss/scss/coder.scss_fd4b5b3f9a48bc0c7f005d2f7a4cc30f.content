@@ -3857,7 +3857,7 @@ img.emoji {
   max-height: 40rem; }
 
 /* HOMEPAGE: */
-/* Desktop: */
+/* Desktop: (also default) */
 .home-item {
   flex: 1;
   text-align: center; }
@@ -3873,14 +3873,16 @@ img.emoji {
     color: rgba(46, 52, 64, 0.8); }
   .latest ul span {
     color: #2e3440; }
-  .latest ul li #latest-article-title {
-    font-size: 1.6em; }
-  .latest ul li a {
-    font-weight: 600; }
-  .latest ul li p {
-    margin-top: -0.2rem;
-    margin-bottom: 5rem;
-    line-height: 1.4em; }
+  .latest ul li {
+    line-height: 1.5em;
+    margin-bottom: 0.7rem; }
+    .latest ul li #latest-article-title {
+      font-size: 1.6em; }
+    .latest ul li a {
+      font-weight: 600; }
+    .latest ul li p {
+      margin-top: 0;
+      margin-bottom: 5rem; }
 
 /* Tablet: */
 @media only screen and (min-width: 450.1px) and (max-width: 960px) {
@@ -3922,6 +3924,6 @@ img.emoji {
       .latest ul li {
         margin-left: -40px; }
         .latest ul li p {
-          margin-bottom: 3rem; } }
+          margin-bottom: 3.5rem; } }
 
 /*# sourceMappingURL=coder.css.map */
