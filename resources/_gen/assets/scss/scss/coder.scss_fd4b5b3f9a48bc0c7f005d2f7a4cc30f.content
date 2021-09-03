@@ -3832,7 +3832,13 @@ img.emoji {
 
 .article-content {
   max-width: 74rem;
-  margin: 5rem auto -3rem auto; }
+  margin: 5rem auto -3rem auto;
+  /* for images in articles: */ }
+  .article-content img {
+    max-height: 40rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
 #id-articles-list {
   margin-top: 9rem; }
