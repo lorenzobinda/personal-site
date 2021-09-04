@@ -14,7 +14,7 @@ Dark theme | Light theme
 --- | ---
 ![homepage dark](.github/screenshots/homepage_dark.png) | ![homepage light](.github/screenshots/homepage_light.png)
 
-Italian translation
+###### Italian translation
 Tema scuro | Tema chiaro
 --- | ---
 ![homepage tema scuro](.github/screenshots/homepage_ita_dark.png) | ![homepage tema chiaro](.github/screenshots/homepage_ita_light.png)
