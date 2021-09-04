@@ -1,5 +1,6 @@
 # My personal website
-It will contain articles and guides created by me. Will be focused on technology and productivity tools. It's full of personal opinions, but I hope it will be useful also for others. 
+It's online on [lorenzobinda.com](https://lorenzobinda.com/)
+It contains articles and guides created by me. It's focused on technology and productivity tools. Here I express my personal opinions, I hope it will be useful also for others. 
 
 Created with the Hugo static website generator, starting from the hugo-coder theme. 
 
@@ -9,11 +10,28 @@ All made by me in my spare time. The journey has been an extremely valuable way 
 ## Screenshots
 These are some screenshots about the work-in-progress. They are took with the dark-mode, but also a classic light-mode is included. The website will be available both in English and Italian.
 #### Homepage
-![homepage_dark](.github/screenshots/homepage.png)
+Dark theme | Light theme
+![homepage dark](.github/screenshots/homepage_dark.png) | ![homepage light](.github/screenshots/homepage_light.png)
+
+Italian translation
+Tema scuro | Tema chiaro
+![homepage tema scuro](.github/screenshots/homepage_ita_dark.png) | ![homepage tema chiaro](.github/screenshots/homepage_ita_light.png)
+
 #### Blog list
-![blog](.github/screenshots/blog.png)
+All posts with dark theme | All posts with light theme
+![blog dark theme](.github/screenshots/posts_dark.png) | ![blog light theme](.github/screenshots/posts_light.png)
+
 #### Books section
-![books](.github/screenshots/books.png)
+Books' list with dark theme | Books' list with light theme
+![books dark theme](.github/screenshots/books_dark.png) | ![books light theme](.github/screenshots/books_light.png)
+
+#### Contacts page
+About me and my contacts with dark theme | About me and my contacts with light theme
+![contacts dark theme](.github/screenshots/contacts_dark.png) | ![contacts light theme](.github/screenshots/contacts_light.png)
+
+#### Error 404 page
+"404 page not found" with dark theme | "404 page not found" with light theme
+![404 dark theme](.github/screenshots/404_dark.png) | ![404 light theme](.github/screenshots/404_light.png)
 
 ---
 Acknowledgements:
