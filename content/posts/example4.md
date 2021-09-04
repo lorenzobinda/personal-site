@@ -9,7 +9,7 @@ tags: [Tag 3]
 categories: [Cat 2]
 externalLink: ""
 series: [post]
-coverImage:
+coverImage: /images/N90.jpg
 ---
 
 # Title 1
