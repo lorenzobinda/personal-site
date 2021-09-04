@@ -3,7 +3,7 @@ draft: false
 date: 2021-09-01T09:55:32+02:00
 title: "Why this Website?"
 description: "Why this website exists? Here it's why I have created it."
-slug: ""
+slug: "2021-09-01-why-this-site"
 authors: []
 tags: [Coding]
 categories: []

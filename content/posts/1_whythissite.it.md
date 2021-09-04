@@ -3,7 +3,7 @@ draft: false
 date: 2021-09-01T09:55:32+02:00
 title: "Perchè un sito web?"
 description: "Perchè questo sito esiste? Ecco perchè l'ho creato."
-slug: ""
+slug: "2021-09-01-why-this-site"
 authors: []
 tags: [Programmazione]
 categories: []
