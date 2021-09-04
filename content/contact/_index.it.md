@@ -13,4 +13,4 @@ slug: "contact"
 🚀 La mia passione segreta è l'**esplorazione spaziale**: ho sempre sotto controllo quando sarà la prossima missione!
 
 ## Contattami 
-Non esitare a contattarmi sul social che preferisci, o in alternativa, puoi mandarmi una [email da qui](mailto:lorenzobinda@protonmail.com).
+Non esitare a contattarmi sul social che preferisci, o in alternativa, puoi mandarmi una [email da qui](mailto:me@lorenzobinda.com).

@@ -13,4 +13,4 @@ slug: "contact"
 🚀 My secret passion is **space exploration**: I constantly check when the next space mission will be!
 
 ## Get in touch
-Do not hesitate to contact me on the social you prefer, or alternatively, you can send me an [email here](mailto:lorenzobinda@protonmail.com). 
+Do not hesitate to contact me on the social you prefer, or alternatively, you can send me an [email here](mailto:me@lorenzobinda.com). 
