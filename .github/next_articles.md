@@ -3,7 +3,7 @@
 - Opinions ("my 2 cents")
 - Software reviews
 - Product reviews
-- What I've learnt this week
+- What I've learnt this week / Best Of The Week
 
 ## Possible articles:
 1. Why this site
