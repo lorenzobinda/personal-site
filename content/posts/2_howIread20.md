@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2021-09-11T13:11:47+02:00
 title: "How I read 20+ books each year."
 description: "Here's my strategy."
