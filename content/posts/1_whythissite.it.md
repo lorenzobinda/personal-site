@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2021-09-01T09:55:32+02:00
-title: "Perchè un sito web?"
+title: "Perchè un Sito Web?"
 description: "Perchè questo sito esiste? Ecco perchè l'ho creato."
 slug: "2021-09-01-why-this-site"
 authors: []

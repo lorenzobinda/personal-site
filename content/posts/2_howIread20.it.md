@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2021-09-11T13:11:47+02:00
-title: "Come leggo 20+ libri ogni anno."
+title: "Come Leggo Più di 20 Libri Ogni Anno."
 description: "Ecco la mia strategia."
 slug: "2021-09-11-why-reading"
 authors: []
