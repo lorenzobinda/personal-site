@@ -2,7 +2,7 @@
 draft: false
 date: 2021-09-19T18:31:00+02:00
 title: "Best of the Week #2"
-description: "The weekly summary with the best insights."
+description: "New iPhones; Insipiration4 mission opens a new era."
 slug: "2021-09-19-botw-2"
 authors: []
 tags: [BotW]
