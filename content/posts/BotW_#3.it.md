@@ -48,6 +48,6 @@ Questa settimana vi consiglio di guardare il video di Kurzgesagt (canale youtube
 {{< youtube id="3qHkcs3kG44" title="Joe Rogan Experience #1309 - Naval Ravikant" >}}
 
 Lo so, è un episodio di 2 anni fa, ma ne vale davvero la pena. Pieno di idee interessanti e consigli. Ne allego alcuni tra i migliori per me:
-- Lo Status è un gioco a somma zero, per salire di livello devi superare qualcuno e trascinarlo in basso. La ricchezza è un gioco a somma positiva, tutti possiamo raggiungerla.
+- Lo Status è un gioco a somma zero, per salire di livello devi superare qualcuno e trascinarlo in basso. La Ricchezza è un gioco a somma positiva, tutti possiamo raggiungerla.
 - Il socialismo viene dal cuore, tutti vorremmo l'uguaglianza. Il capitalsimo viene dalla testa, ci saranno sempre dei disonesti. Se sei giovane e non sei socialista allora non hai cuore, ma se sei più vecchio e non sei capitalista, allora non ci hai pensato abbastanza.
 - "Ogni uomo ha due vite, e la seconda inizia quando realizza che ne ha solo una." — Confucio
