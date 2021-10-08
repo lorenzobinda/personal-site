@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2021-10-07T19:51:44+02:00
 title: "Passare da Android a iPhone."
 description: "Upgrade, decisione folle o scelta obbligata?"
