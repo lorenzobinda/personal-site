@@ -48,5 +48,12 @@
     "title_it": "Design your life",
     "author": "Bill Burnett, Dave Evans",
     "link": "https://www.amazon.com/Designing-Your-Life-Well-Lived-Joyful/dp/1101875321/"
+  },
+  "9": {
+    "title_en": "How to Win Friends and Influence People",
+    "title_it": "Come trattare gli altri e farseli amici",
+    "author": "Dale Carnegie",
+    "link": "https://www.amazon.com/How-win-Friends-Influence-People/dp/8189297813/",
+    "must": "1"
   }
 }
