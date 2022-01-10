@@ -23,5 +23,12 @@
     "title_it": "La trilogia del Silo (Wool, Shift, Dust)",
     "author": "Hugh Howey",
     "link": "https://www.amazon.com/Silo-Saga-Wool-Shift-Stories/dp/0358447828/"
+  },
+  "5": {
+    "title_en": "Dune",
+    "title_it": "Dune",
+    "author": "Frank Herbert",
+    "link": "https://www.amazon.com/Dune-Chronicles-Book-1/dp/0441013597/",
+    "must": "1"
   }
 }
