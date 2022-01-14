@@ -30,5 +30,11 @@
     "author": "Frank Herbert",
     "link": "https://www.amazon.com/Dune-Chronicles-Book-1/dp/0441013597/",
     "must": "1"
+  },
+  "6": {
+    "title_en": "1984",
+    "title_it": "1984",
+    "author": "George Orwell",
+    "link": "https://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934/"
   }
 }
