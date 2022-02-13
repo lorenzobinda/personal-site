@@ -1,8 +1,14 @@
 {
   "1": {
-    "title_en": "Sapiens: A Brief History of Humankind",
-    "title_it": "Sapiens: Breve Storia dell'Umanità",
-    "author": "Yuval Noah Harari",
-    "link": "https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316117/"
+    "title_en": "The Great Mental Models Volume 1",
+    "title_it": "The Great Mental Models Volume 1",
+    "author": "Shane Parrish",
+    "link": "https://www.amazon.com/Great-Mental-Models-Thinking-Concepts/dp/1999449002/"
+  },
+  "2": {
+    "title_en": "Dune Messiah",
+    "title_it": "Messia di Dune",
+    "author": "Frank Herbert",
+    "link": "https://www.amazon.com/Dune-Messiah-Frank-Herbert-audiobook/dp/B000WS9ZHY/"
   }
 }
