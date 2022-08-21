@@ -61,5 +61,12 @@
     "title_it": "Ego è il Nemico",
     "author": "Ryan Holiday",
     "link": "https://www.amazon.com/Ego-Enemy-Ryan-Holiday/dp/1591847818/"
+  },
+  "11": {
+    "title_en": "The Great Mental Models Volume 1",
+    "title_it": "The Great Mental Models Volume 1",
+    "author": "Shane Parrish",
+    "link": "https://www.amazon.com/Great-Mental-Models-Thinking-Concepts/dp/1999449002/",
+    "must": "1"
   }
 }

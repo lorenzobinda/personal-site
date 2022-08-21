@@ -1,8 +1,14 @@
 {
   "1": {
-    "title_en": "Sapiens: A Brief History of Humankind",
-    "title_it": "Sapiens: Breve Storia dell'Umanità",
-    "author": "Yuval Noah Harari",
-    "link": "https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316117/"
+    "title_en": "The Elephant in the Brain: hidden motives in everyday life",
+    "title_it": "The Elephant in the Brain: hidden motives in everyday life",
+    "author": "Kevin Simler, Robin Hanson",
+    "link": "https://www.amazon.com/Elephant-Brain-Hidden-Motives-Everyday/dp/0197551955/"
+  },
+  "2": {
+    "title_en": "Steve Jobs",
+    "title_it": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "link": "https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537/"
   }
 }
